@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Restoration" type="RestorationType"/>
+	<xs:element name="Project" type="ProjectType"/>
+	<xs:element name="Member" type="MemberType"/>
+	<xs:complexType name="RestorationType">
+		<xs:sequence>
+			<xs:element ref="Project" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="Team" type="TeamType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProjectType">
+		<xs:sequence>
+			<xs:element name="Loan">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:positiveInteger">
+							<xs:attribute name="currency" type="xs:string" use="required"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Collection_Artifacts">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Collection" minOccurs="0">
+							<xs:complexType>
+								<xs:attribute name="ref" type="xs:IDREF" use="required"/>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="Artifact" minOccurs="0">
+							<xs:complexType>
+								<xs:attribute name="ref" type="xs:IDREF" use="required"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="type" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="Collection"/>
+								<xs:enumeration value="Artifact"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="ResponsibleRef">
+				<xs:complexType>
+					<xs:attribute name="ref" type="xs:IDREF" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+	</xs:complexType>
+	<xs:complexType name="TeamType">
+		<xs:sequence>
+			<xs:element ref="Member" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="MemberType">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string"/>
+			<xs:element name="LastName" type="xs:string"/>
+			<xs:element name="Role" type="xs:string"/>
+			<xs:element name="Department" type="xs:string"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+	</xs:complexType>
+</xs:schema>

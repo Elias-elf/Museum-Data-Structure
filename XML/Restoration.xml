@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet type="text/xsl" href="transfo1.xsl" ?> -->
+<Restoration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Restoration.xsd">
+	<Project id="P0001">
+		<Loan currency="EUR">5000</Loan>
+		<Collection_Artifacts type="Collection">
+			<Collection ref="COL003"/>
+		</Collection_Artifacts>
+		<ResponsibleRef ref="R3001"/>
+	</Project>
+	<Project id="P0002">
+		<Loan currency="EUR">800</Loan>
+		<Collection_Artifacts type="Artifact">
+			<Artifact ref="ART001"/>
+		</Collection_Artifacts>
+		<ResponsibleRef ref="R3007"/>
+	</Project>
+	<Project id="P0003">
+		<Loan currency="EUR">1200</Loan>
+		<Collection_Artifacts type="Artifact">
+			<Artifact ref="ART003"/>
+		</Collection_Artifacts>
+		<ResponsibleRef ref="R3001"/>
+	</Project>
+	<Project id="P0004">
+		<Loan currency="EUR">3000</Loan>
+		<Collection_Artifacts type="Collection">
+			<Collection ref="COL005"/>
+		</Collection_Artifacts>
+		<ResponsibleRef ref="R3003"/>
+	</Project>
+	<Project id="P0005">
+		<Loan currency="EUR">950</Loan>
+		<Collection_Artifacts type="Artifact">
+			<Artifact ref="ART005"/>
+		</Collection_Artifacts>
+		<ResponsibleRef ref="R3003"/>
+	</Project>
+	<Project id="P0006">
+		<Loan currency="EUR">2500</Loan>
+		<Collection_Artifacts type="Artifact">
+			<Artifact ref="ART012"/>
+		</Collection_Artifacts>
+		<ResponsibleRef ref="R3007"/>
+	</Project>
+	<Project id="P0007">
+		<Loan currency="EUR">1100</Loan>
+		<Collection_Artifacts type="Artifact">
+			<Artifact ref="ART013"/>
+		</Collection_Artifacts>
+		<ResponsibleRef ref="R3005"/>
+	</Project>
+	<Project id="P0008">
+		<Loan currency="EUR">4000</Loan>
+		<Collection_Artifacts type="Collection">
+			<Collection ref="COL008"/>
+		</Collection_Artifacts>
+		<ResponsibleRef ref="R3004"/>
+	</Project>
+	<Project id="P0009">
+		<Loan currency="EUR">600</Loan>
+		<Collection_Artifacts type="Artifact">
+			<Artifact ref="ART007"/>
+		</Collection_Artifacts>
+		<ResponsibleRef ref="R3005"/>
+	</Project>
+	<Project id="P0010">
+		<Loan currency="EUR">1800</Loan>
+		<Collection_Artifacts type="Collection">
+			<Collection ref="COL009"/>
+		</Collection_Artifacts>
+		<ResponsibleRef ref="R3008"/>
+	</Project>
+	<Team>
+		<Member id="R3001">
+			<Name>Sofia</Name>
+			<LastName>Marchetti</LastName>
+			<Role>Stone Conservation Specialist</Role>
+			<Department>Sculpture Conservation</Department>
+		</Member>
+		<Member id="R3002">
+			<Name>James</Name>
+			<LastName>Lopez</LastName>
+			<Role>Objects Conservator</Role>
+			<Department>Ancient Near Eastern Collections</Department>
+		</Member>
+		<Member id="R3003">
+			<Name>Amara</Name>
+			<LastName>Okafor</LastName>
+			<Role>Textile and Manuscript Conservator</Role>
+			<Department>Medieval Collections</Department>
+		</Member>
+		<Member id="R3004">
+			<Name>Hiroshi</Name>
+			<LastName>Tanaka</LastName>
+			<Role>Ceramics Conservator</Role>
+			<Department>Asian Art Department</Department>
+		</Member>
+		<Member id="R3005">
+			<Name>Elena</Name>
+			<LastName>Petrova</LastName>
+			<Role>Metals Conservator</Role>
+			<Department>Bronze and Metalwork</Department>
+		</Member>
+		<Member id="R3006">
+			<Name>Marco</Name>
+			<LastName>Rossi</LastName>
+			<Role>Paintings Conservator</Role>
+			<Department>European Paintings</Department>
+		</Member>
+		<Member id="R3007">
+			<Name>Fatima</Name>
+			<LastName>Al-Sayed</LastName>
+			<Role>Epigraphy and Stone Conservator</Role>
+			<Department>Egyptian Antiquities</Department>
+		</Member>
+		<Member id="R3008">
+			<Name>Kwame</Name>
+			<LastName>Mensah</LastName>
+			<Role>Wood and Organic Materials Conservator</Role>
+			<Department>African and Oceanic Collections</Department>
+		</Member>
+	</Team>
+</Restoration>
