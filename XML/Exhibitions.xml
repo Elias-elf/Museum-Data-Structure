@@ -1,0 +1,163 @@
+<Musium>
+  <Exhibitions>
+  <!-- Exhibition 1 -->
+  <Exhibition id="EXH001">
+    <Description>Discover the wonders of Ancient Egyptian civilization through masterpieces from the collection.</Description>
+    <Schedule>
+      <StartDate>2025-03-15</StartDate>
+      <EndDate>2025-07-15</EndDate>
+    </Schedule>
+    <VisitorsPerDay>
+      <Adult>345</Adult>
+      <Under12>120</Under12>
+    </VisitorsPerDay>
+    <Artist>Ancient Egyptian Sculptors</Artist>
+    <ThemeCulture>Ancient Egypt</ThemeCulture>
+    <HistoricalPeriod>05th century BC</HistoricalPeriod>
+  </Exhibition>
+
+  <!-- Exhibition 2 -->
+  <Exhibition id="EXH002">
+    <Description>Power and propaganda in the Roman Empire through rare coins and artifacts.</Description>
+    <Schedule>
+      <StartDate>2025-08-01</StartDate>
+      <EndDate>2025-11-30</EndDate>
+    </Schedule>
+    <VisitorsPerDay>
+      <Adult>280</Adult>
+      <Under12>95</Under12>
+    </VisitorsPerDay>
+    <Artist>Imperial Roman Mint</Artist>
+    <ThemeCulture>Roman Empire</ThemeCulture>
+    <HistoricalDate>0010-01-01</HistoricalDate>
+  </Exhibition>
+
+  <!-- Exhibition 3 -->
+  <Exhibition id="EXH003">
+    <Description>Classical Greek sculptures and the ideal human form.</Description>
+    <Schedule>
+      <StartDate>2025-01-10</StartDate>
+      <EndDate>2025-05-10</EndDate>
+    </Schedule>
+    <VisitorsPerDay>
+      <Adult>310</Adult>
+      <Under12>110</Under12>
+    </VisitorsPerDay>
+    <Artist>Phidias School</Artist>
+    <ThemeCulture>Classical Greece</ThemeCulture>
+    <HistoricalPeriod>04th century BC</HistoricalPeriod>
+  </Exhibition>
+
+  <!-- Exhibition 4 -->
+  <Exhibition id="EXH004">
+    <Description>Daily life in Prehistoric Europe through tools and artifacts.</Description>
+    <Schedule>
+      <StartDate>2026-02-01</StartDate>
+      <EndDate>2026-06-01</EndDate>
+    </Schedule>
+    <VisitorsPerDay>
+      <Adult>220</Adult>
+      <Under12>80</Under12>
+    </VisitorsPerDay>
+    <Artist>Unknown Neolithic Craftsmen</Artist>
+    <ThemeCulture>Neolithic Culture</ThemeCulture>
+    <HistoricalPeriod>05th century BC</HistoricalPeriod>
+  </Exhibition>
+
+  <!-- Exhibition 5 -->
+  <Exhibition id="EXH005">
+    <Description>Illuminated manuscripts and the art of medieval bookmaking.</Description>
+    <Schedule>
+      <StartDate>2025-09-20</StartDate>
+      <EndDate>2026-01-20</EndDate>
+    </Schedule>
+    <VisitorsPerDay>
+      <Adult>260</Adult>
+      <Under12>100</Under12>
+    </VisitorsPerDay>
+    <Artist>Medieval Monks</Artist>
+    <ThemeCulture>Medieval European Christianity</ThemeCulture>
+    <HistoricalPeriod>12th century AD</HistoricalPeriod>
+  </Exhibition>
+
+  <!-- Exhibition 6 -->
+  <Exhibition id="EXH006">
+    <Description>The Italian Renaissance - Art, Faith, and Humanism.</Description>
+    <Schedule>
+      <StartDate>2026-03-01</StartDate>
+      <EndDate>2026-08-01</EndDate>
+    </Schedule>
+    <VisitorsPerDay>
+      <Adult>320</Adult>
+      <Under12>115</Under12>
+    </VisitorsPerDay>
+    <Artist>Leonardo da Vinci</Artist>
+    <ThemeCulture>Italian Renaissance</ThemeCulture>
+    <HistoricalPeriod>15th century AD</HistoricalPeriod>
+  </Exhibition>
+
+  <!-- Exhibition 7 -->
+  <Exhibition id="EXH007">
+    <Description>Science and Art in the Islamic Golden Age.</Description>
+    <Schedule>
+      <StartDate>2025-11-01</StartDate>
+      <EndDate>2026-02-28</EndDate>
+    </Schedule>
+    <VisitorsPerDay>
+      <Adult>290</Adult>
+      <Under12>105</Under12>
+    </VisitorsPerDay>
+    <Artist>Al-Jazari Workshop</Artist>
+    <ThemeCulture>Islamic Golden Age</ThemeCulture>
+    <HistoricalPeriod>10th century AD</HistoricalPeriod>
+  </Exhibition>
+
+  <!-- Exhibition 8 -->
+  <Exhibition id="EXH008">
+    <Description>Porcelain treasures from Imperial China.</Description>
+    <Schedule>
+      <StartDate>2026-04-15</StartDate>
+      <EndDate>2026-09-15</EndDate>
+    </Schedule>
+    <VisitorsPerDay>
+      <Adult>250</Adult>
+      <Under12>90</Under12>
+    </VisitorsPerDay>
+    <Artist>Imperial Kilns of Jingdezhen</Artist>
+    <ThemeCulture>Chinese Imperial Culture</ThemeCulture>
+    <HistoricalPeriod>15th century AD</HistoricalPeriod>
+  </Exhibition>
+
+  <!-- Exhibition 9 -->
+  <Exhibition id="EXH009">
+    <Description>Masks and rituals of West African cultures.</Description>
+    <Schedule>
+      <StartDate>2025-05-01</StartDate>
+      <EndDate>2025-09-01</EndDate>
+    </Schedule>
+    <VisitorsPerDay>
+      <Adult>200</Adult>
+      <Under12>85</Under12>
+    </VisitorsPerDay>
+    <Artist>Traditional West African Carvers</Artist>
+    <ThemeCulture>West African Traditional Culture</ThemeCulture>
+    <HistoricalPeriod>20th century AD</HistoricalPeriod>
+  </Exhibition>
+
+  <!-- Exhibition 10 -->
+  <Exhibition id="EXH010">
+    <Description>The beauty of minerals and the story of Earth.</Description>
+    <Schedule>
+      <StartDate>2026-10-01</StartDate>
+      <EndDate>2027-02-01</EndDate>
+    </Schedule>
+    <VisitorsPerDay>
+      <Adult>180</Adult>
+      <Under12>75</Under12>
+    </VisitorsPerDay>
+    <Artist>Geological Survey Team</Artist>
+    <ThemeCulture>Natural History Collection</ThemeCulture>
+    <HistoricalDate>2020-01-01</HistoricalDate>
+  </Exhibition>
+  </Exhibitions>
+</Musium>
