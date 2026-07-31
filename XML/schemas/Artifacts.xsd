@@ -1,0 +1,89 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name='Artifacts'>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name='Artifact' type='ArtifactType' minOccurs='1' maxOccurs='unbounded'/>
+				<!--Artifacts should contain at least one Artifact-->
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ArtifactType">
+		<xs:sequence>
+			<xs:element name='Description' type='xs:string'/>
+			<xs:element name='Material' type='MaterialType' minOccurs='1' maxOccurs='unbounded'>
+				<!--To preserve proper links to other sections,
+				the Material is limited to the enumeration list below. 
+				An artifact can be composed of more than one Material-->
+			</xs:element>
+			<xs:element name='Collection' minOccurs='1' maxOccurs='unbounded'>
+				<!--An Artifact can belong to one or many Collections-->
+				<xs:complexType>
+					<xs:attribute name="ref" type='xs:IDREF' use='required'/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name='Provenance' type='ProvenanceType' minOccurs='0' maxOccurs='1'/>
+			<!--It's accepted that for some Artifacts the Provenance be unknown, hence the minOccurs=0.
+			To facilitate later data exploitation, a Provenance attribute must be selected from one of these:
+			A site, a city, a coutry or a geographic region-->
+			<xs:element name='CulturalHeritage'>
+				<!--An Artifact refer to a unique CulturalHeritage-->
+				<xs:complexType>
+					<xs:attribute name="ref_Theme" type='xs:IDREF' use='required'/>
+				</xs:complexType>
+			</xs:element>
+			<xs:choice>
+				<xs:element name='HistoricalPeriod'>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:pattern value="[0-9][0-9]*(st|nd|rd|th) century (BC|AD)"/>
+							<!--For consistency, all historical period inputs have the same format-->
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name='HistoricalDate' type='xs:date'/>
+				<!--One of two should be provided, the period or an exact date-->
+			</xs:choice>
+			<xs:element name='RestorationHistory' type='RestorationHistoryType'/>
+			<!--The restoration history property gives information on past restorations only,
+			it doesn't state whether an artifact is covered by a current restoration project or not-->
+		</xs:sequence>
+		<xs:attribute name='id' type='xs:ID' use='required'/>
+	</xs:complexType>
+	<xs:simpleType name='MaterialType'>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Stone"/>
+			<xs:enumeration value="Marble"/>
+			<xs:enumeration value="Bronze"/>
+			<xs:enumeration value="Gold"/>
+			<xs:enumeration value="Silver"/>
+			<xs:enumeration value="Wood"/>
+			<xs:enumeration value="Ceramic"/>
+			<xs:enumeration value="Glass"/>
+			<xs:enumeration value="Iron"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name='ProvenanceType'>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="type" use="required">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Site"/>
+							<xs:enumeration value="City"/>
+							<xs:enumeration value="Country"/>
+							<xs:enumeration value="Region"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name='RestorationHistoryType'>
+		<xs:sequence>
+			<!--When the artifact has never been restored, these properties shall not occur-->
+			<xs:element name="Restoration_Record" type='xs:nonNegativeInteger' minOccurs='0'/>
+			<xs:element name="Restoration_Scope_Description" type='xs:string' minOccurs='0'/>			
+		</xs:sequence>
+		<xs:attribute name="under_restoration" type="xs:boolean" use='required'/>
+	</xs:complexType>
+</xs:schema>

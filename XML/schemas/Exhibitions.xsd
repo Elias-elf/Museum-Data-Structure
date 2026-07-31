@@ -1,0 +1,62 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name='Exhibitions'>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name='Exhibition' type='ExhibitionType' minOccurs='1' maxOccurs='unbounded'/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ExhibitionType">
+		<xs:sequence>
+			<xs:element name='Theme'>
+				<!--The exhibition title is nothing else but a Theme-->
+				<xs:complexType>
+					<xs:attribute name="ref" type='xs:IDREF' use='required'/>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name='Schedule'>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name='OpeningDate' type='xs:date'/>
+						<xs:element name='ClosingDate' type='xs:date'/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:choice>
+				<xs:element name="Artifacts">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Artifact" minOccurs="10" maxOccurs="unbounded">
+								<!--Have at least 10 artifacts in an Exhibition or a collection-->
+								<xs:complexType>
+									<xs:attribute name="ref" type="xs:IDREF" use="required"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Collection" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="ref" type="xs:IDREF" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+			<xs:element name='VisitorCount'>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name='Adult' type='CountType'/>
+						<xs:element name='UnderAge' type='CountType'/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name='id' type='xs:ID' use='required'/>
+	</xs:complexType>
+	<xs:complexType name="CountType">
+		<xs:simpleContent>
+			<xs:extension base="xs:positiveInteger">
+				<xs:attribute name="unit" type="xs:string" use="required" fixed="Visitors/Day"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>

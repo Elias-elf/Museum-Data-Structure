@@ -1,163 +1,1394 @@
-<Musium>
-  <Exhibitions>
-  <!-- Exhibition 1 -->
-  <Exhibition id="EXH001">
-    <Description>Discover the wonders of Ancient Egyptian civilization through masterpieces from the collection.</Description>
+<?xml version='1.0' encoding='UTF-8'?>
+<Exhibitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Exhibitions.xsd">
+  <Exhibition id="EX001">
+    <Theme ref="TH001"/>
     <Schedule>
-      <StartDate>2025-03-15</StartDate>
-      <EndDate>2025-07-15</EndDate>
+      <OpeningDate>2026-01-15</OpeningDate>
+      <ClosingDate>2026-04-15</ClosingDate>
     </Schedule>
-    <VisitorsPerDay>
-      <Adult>345</Adult>
-      <Under12>120</Under12>
-    </VisitorsPerDay>
-    <Artist>Ancient Egyptian Sculptors</Artist>
-    <ThemeCulture>Ancient Egypt</ThemeCulture>
-    <HistoricalPeriod>05th century BC</HistoricalPeriod>
+    <Artifacts>
+      <Artifact ref="A0014"/>
+      <Artifact ref="A0015"/>
+      <Artifact ref="A0016"/>
+      <Artifact ref="A0017"/>
+      <Artifact ref="A0018"/>
+      <Artifact ref="A0019"/>
+      <Artifact ref="A0020"/>
+      <Artifact ref="A0021"/>
+      <Artifact ref="A0022"/>
+      <Artifact ref="A0023"/>
+      <Artifact ref="A0024"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">87</Adult>
+      <UnderAge unit="Visitors/Day">28</UnderAge>
+    </VisitorCount>
   </Exhibition>
-
-  <!-- Exhibition 2 -->
-  <Exhibition id="EXH002">
-    <Description>Power and propaganda in the Roman Empire through rare coins and artifacts.</Description>
+  <Exhibition id="EX002">
+    <Theme ref="TH002"/>
     <Schedule>
-      <StartDate>2025-08-01</StartDate>
-      <EndDate>2025-11-30</EndDate>
+      <OpeningDate>2026-02-05</OpeningDate>
+      <ClosingDate>2026-05-07</ClosingDate>
     </Schedule>
-    <VisitorsPerDay>
-      <Adult>280</Adult>
-      <Under12>95</Under12>
-    </VisitorsPerDay>
-    <Artist>Imperial Roman Mint</Artist>
-    <ThemeCulture>Roman Empire</ThemeCulture>
-    <HistoricalDate>0010-01-01</HistoricalDate>
+    <Artifacts>
+      <Artifact ref="A0111"/>
+      <Artifact ref="A0112"/>
+      <Artifact ref="A0113"/>
+      <Artifact ref="A0114"/>
+      <Artifact ref="A0115"/>
+      <Artifact ref="A0116"/>
+      <Artifact ref="A0117"/>
+      <Artifact ref="A0118"/>
+      <Artifact ref="A0119"/>
+      <Artifact ref="A0120"/>
+      <Artifact ref="A0121"/>
+      <Artifact ref="A0122"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">94</Adult>
+      <UnderAge unit="Visitors/Day">31</UnderAge>
+    </VisitorCount>
   </Exhibition>
-
-  <!-- Exhibition 3 -->
-  <Exhibition id="EXH003">
-    <Description>Classical Greek sculptures and the ideal human form.</Description>
+  <Exhibition id="EX003">
+    <Theme ref="TH003"/>
     <Schedule>
-      <StartDate>2025-01-10</StartDate>
-      <EndDate>2025-05-10</EndDate>
+      <OpeningDate>2026-02-26</OpeningDate>
+      <ClosingDate>2026-05-29</ClosingDate>
     </Schedule>
-    <VisitorsPerDay>
-      <Adult>310</Adult>
-      <Under12>110</Under12>
-    </VisitorsPerDay>
-    <Artist>Phidias School</Artist>
-    <ThemeCulture>Classical Greece</ThemeCulture>
-    <HistoricalPeriod>04th century BC</HistoricalPeriod>
+    <Artifacts>
+      <Artifact ref="A0208"/>
+      <Artifact ref="A0209"/>
+      <Artifact ref="A0210"/>
+      <Artifact ref="A0211"/>
+      <Artifact ref="A0212"/>
+      <Artifact ref="A0213"/>
+      <Artifact ref="A0214"/>
+      <Artifact ref="A0215"/>
+      <Artifact ref="A0216"/>
+      <Artifact ref="A0217"/>
+      <Artifact ref="A0218"/>
+      <Artifact ref="A0219"/>
+      <Artifact ref="A0220"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">101</Adult>
+      <UnderAge unit="Visitors/Day">34</UnderAge>
+    </VisitorCount>
   </Exhibition>
-
-  <!-- Exhibition 4 -->
-  <Exhibition id="EXH004">
-    <Description>Daily life in Prehistoric Europe through tools and artifacts.</Description>
+  <Exhibition id="EX004">
+    <Theme ref="TH004"/>
     <Schedule>
-      <StartDate>2026-02-01</StartDate>
-      <EndDate>2026-06-01</EndDate>
+      <OpeningDate>2026-03-19</OpeningDate>
+      <ClosingDate>2026-06-20</ClosingDate>
     </Schedule>
-    <VisitorsPerDay>
-      <Adult>220</Adult>
-      <Under12>80</Under12>
-    </VisitorsPerDay>
-    <Artist>Unknown Neolithic Craftsmen</Artist>
-    <ThemeCulture>Neolithic Culture</ThemeCulture>
-    <HistoricalPeriod>05th century BC</HistoricalPeriod>
+    <Artifacts>
+      <Artifact ref="A0305"/>
+      <Artifact ref="A0306"/>
+      <Artifact ref="A0307"/>
+      <Artifact ref="A0308"/>
+      <Artifact ref="A0309"/>
+      <Artifact ref="A0310"/>
+      <Artifact ref="A0311"/>
+      <Artifact ref="A0312"/>
+      <Artifact ref="A0313"/>
+      <Artifact ref="A0314"/>
+      <Artifact ref="A0315"/>
+      <Artifact ref="A0316"/>
+      <Artifact ref="A0317"/>
+      <Artifact ref="A0318"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">108</Adult>
+      <UnderAge unit="Visitors/Day">37</UnderAge>
+    </VisitorCount>
   </Exhibition>
-
-  <!-- Exhibition 5 -->
-  <Exhibition id="EXH005">
-    <Description>Illuminated manuscripts and the art of medieval bookmaking.</Description>
+  <Exhibition id="EX005">
+    <Theme ref="TH005"/>
     <Schedule>
-      <StartDate>2025-09-20</StartDate>
-      <EndDate>2026-01-20</EndDate>
+      <OpeningDate>2026-04-09</OpeningDate>
+      <ClosingDate>2026-07-12</ClosingDate>
     </Schedule>
-    <VisitorsPerDay>
-      <Adult>260</Adult>
-      <Under12>100</Under12>
-    </VisitorsPerDay>
-    <Artist>Medieval Monks</Artist>
-    <ThemeCulture>Medieval European Christianity</ThemeCulture>
-    <HistoricalPeriod>12th century AD</HistoricalPeriod>
+    <Artifacts>
+      <Artifact ref="A0402"/>
+      <Artifact ref="A0403"/>
+      <Artifact ref="A0404"/>
+      <Artifact ref="A0405"/>
+      <Artifact ref="A0406"/>
+      <Artifact ref="A0407"/>
+      <Artifact ref="A0408"/>
+      <Artifact ref="A0409"/>
+      <Artifact ref="A0410"/>
+      <Artifact ref="A0411"/>
+      <Artifact ref="A0412"/>
+      <Artifact ref="A0413"/>
+      <Artifact ref="A0414"/>
+      <Artifact ref="A0415"/>
+      <Artifact ref="A0416"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">115</Adult>
+      <UnderAge unit="Visitors/Day">40</UnderAge>
+    </VisitorCount>
   </Exhibition>
-
-  <!-- Exhibition 6 -->
-  <Exhibition id="EXH006">
-    <Description>The Italian Renaissance - Art, Faith, and Humanism.</Description>
+  <Exhibition id="EX006">
+    <Theme ref="TH006"/>
     <Schedule>
-      <StartDate>2026-03-01</StartDate>
-      <EndDate>2026-08-01</EndDate>
+      <OpeningDate>2026-04-30</OpeningDate>
+      <ClosingDate>2026-08-03</ClosingDate>
     </Schedule>
-    <VisitorsPerDay>
-      <Adult>320</Adult>
-      <Under12>115</Under12>
-    </VisitorsPerDay>
-    <Artist>Leonardo da Vinci</Artist>
-    <ThemeCulture>Italian Renaissance</ThemeCulture>
-    <HistoricalPeriod>15th century AD</HistoricalPeriod>
+    <Artifacts>
+      <Artifact ref="A0498"/>
+      <Artifact ref="A0499"/>
+      <Artifact ref="A0500"/>
+      <Artifact ref="A0501"/>
+      <Artifact ref="A0502"/>
+      <Artifact ref="A0420"/>
+      <Artifact ref="A0421"/>
+      <Artifact ref="A0422"/>
+      <Artifact ref="A0423"/>
+      <Artifact ref="A0424"/>
+      <Artifact ref="A0425"/>
+      <Artifact ref="A0426"/>
+      <Artifact ref="A0427"/>
+      <Artifact ref="A0428"/>
+      <Artifact ref="A0429"/>
+      <Artifact ref="A0430"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">122</Adult>
+      <UnderAge unit="Visitors/Day">43</UnderAge>
+    </VisitorCount>
   </Exhibition>
-
-  <!-- Exhibition 7 -->
-  <Exhibition id="EXH007">
-    <Description>Science and Art in the Islamic Golden Age.</Description>
+  <Exhibition id="EX007">
+    <Theme ref="TH007"/>
     <Schedule>
-      <StartDate>2025-11-01</StartDate>
-      <EndDate>2026-02-28</EndDate>
+      <OpeningDate>2026-05-21</OpeningDate>
+      <ClosingDate>2026-08-25</ClosingDate>
     </Schedule>
-    <VisitorsPerDay>
-      <Adult>290</Adult>
-      <Under12>105</Under12>
-    </VisitorsPerDay>
-    <Artist>Al-Jazari Workshop</Artist>
-    <ThemeCulture>Islamic Golden Age</ThemeCulture>
-    <HistoricalPeriod>10th century AD</HistoricalPeriod>
+    <Artifacts>
+      <Artifact ref="A0511"/>
+      <Artifact ref="A0512"/>
+      <Artifact ref="A0513"/>
+      <Artifact ref="A0514"/>
+      <Artifact ref="A0515"/>
+      <Artifact ref="A0516"/>
+      <Artifact ref="A0517"/>
+      <Artifact ref="A0518"/>
+      <Artifact ref="A0519"/>
+      <Artifact ref="A0520"/>
+      <Artifact ref="A0521"/>
+      <Artifact ref="A0522"/>
+      <Artifact ref="A0523"/>
+      <Artifact ref="A0524"/>
+      <Artifact ref="A0525"/>
+      <Artifact ref="A0526"/>
+      <Artifact ref="A0527"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">129</Adult>
+      <UnderAge unit="Visitors/Day">46</UnderAge>
+    </VisitorCount>
   </Exhibition>
-
-  <!-- Exhibition 8 -->
-  <Exhibition id="EXH008">
-    <Description>Porcelain treasures from Imperial China.</Description>
+  <Exhibition id="EX008">
+    <Theme ref="TH008"/>
     <Schedule>
-      <StartDate>2026-04-15</StartDate>
-      <EndDate>2026-09-15</EndDate>
+      <OpeningDate>2026-06-11</OpeningDate>
+      <ClosingDate>2026-09-16</ClosingDate>
     </Schedule>
-    <VisitorsPerDay>
-      <Adult>250</Adult>
-      <Under12>90</Under12>
-    </VisitorsPerDay>
-    <Artist>Imperial Kilns of Jingdezhen</Artist>
-    <ThemeCulture>Chinese Imperial Culture</ThemeCulture>
-    <HistoricalPeriod>15th century AD</HistoricalPeriod>
+    <Artifacts>
+      <Artifact ref="A0607"/>
+      <Artifact ref="A0608"/>
+      <Artifact ref="A0609"/>
+      <Artifact ref="A0610"/>
+      <Artifact ref="A0611"/>
+      <Artifact ref="A0612"/>
+      <Artifact ref="A0613"/>
+      <Artifact ref="A0614"/>
+      <Artifact ref="A0615"/>
+      <Artifact ref="A0616"/>
+      <Artifact ref="A0617"/>
+      <Artifact ref="A0618"/>
+      <Artifact ref="A0619"/>
+      <Artifact ref="A0620"/>
+      <Artifact ref="A0621"/>
+      <Artifact ref="A0622"/>
+      <Artifact ref="A0623"/>
+      <Artifact ref="A0624"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">136</Adult>
+      <UnderAge unit="Visitors/Day">49</UnderAge>
+    </VisitorCount>
   </Exhibition>
-
-  <!-- Exhibition 9 -->
-  <Exhibition id="EXH009">
-    <Description>Masks and rituals of West African cultures.</Description>
+  <Exhibition id="EX009">
+    <Theme ref="TH009"/>
     <Schedule>
-      <StartDate>2025-05-01</StartDate>
-      <EndDate>2025-09-01</EndDate>
+      <OpeningDate>2026-07-02</OpeningDate>
+      <ClosingDate>2026-10-08</ClosingDate>
     </Schedule>
-    <VisitorsPerDay>
-      <Adult>200</Adult>
-      <Under12>85</Under12>
-    </VisitorsPerDay>
-    <Artist>Traditional West African Carvers</Artist>
-    <ThemeCulture>West African Traditional Culture</ThemeCulture>
-    <HistoricalPeriod>20th century AD</HistoricalPeriod>
+    <Artifacts>
+      <Artifact ref="A0703"/>
+      <Artifact ref="A0704"/>
+      <Artifact ref="A0705"/>
+      <Artifact ref="A0706"/>
+      <Artifact ref="A0707"/>
+      <Artifact ref="A0708"/>
+      <Artifact ref="A0709"/>
+      <Artifact ref="A0710"/>
+      <Artifact ref="A0711"/>
+      <Artifact ref="A0712"/>
+      <Artifact ref="A0713"/>
+      <Artifact ref="A0714"/>
+      <Artifact ref="A0715"/>
+      <Artifact ref="A0716"/>
+      <Artifact ref="A0717"/>
+      <Artifact ref="A0718"/>
+      <Artifact ref="A0719"/>
+      <Artifact ref="A0720"/>
+      <Artifact ref="A0721"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">143</Adult>
+      <UnderAge unit="Visitors/Day">52</UnderAge>
+    </VisitorCount>
   </Exhibition>
-
-  <!-- Exhibition 10 -->
-  <Exhibition id="EXH010">
-    <Description>The beauty of minerals and the story of Earth.</Description>
+  <Exhibition id="EX010">
+    <Theme ref="TH010"/>
     <Schedule>
-      <StartDate>2026-10-01</StartDate>
-      <EndDate>2027-02-01</EndDate>
+      <OpeningDate>2026-07-23</OpeningDate>
+      <ClosingDate>2026-10-30</ClosingDate>
     </Schedule>
-    <VisitorsPerDay>
-      <Adult>180</Adult>
-      <Under12>75</Under12>
-    </VisitorsPerDay>
-    <Artist>Geological Survey Team</Artist>
-    <ThemeCulture>Natural History Collection</ThemeCulture>
-    <HistoricalDate>2020-01-01</HistoricalDate>
+    <Artifacts>
+      <Artifact ref="A0799"/>
+      <Artifact ref="A0800"/>
+      <Artifact ref="A0801"/>
+      <Artifact ref="A0802"/>
+      <Artifact ref="A0803"/>
+      <Artifact ref="A0804"/>
+      <Artifact ref="A0805"/>
+      <Artifact ref="A0806"/>
+      <Artifact ref="A0807"/>
+      <Artifact ref="A0808"/>
+      <Artifact ref="A0809"/>
+      <Artifact ref="A0810"/>
+      <Artifact ref="A0811"/>
+      <Artifact ref="A0812"/>
+      <Artifact ref="A0813"/>
+      <Artifact ref="A0814"/>
+      <Artifact ref="A0815"/>
+      <Artifact ref="A0816"/>
+      <Artifact ref="A0817"/>
+      <Artifact ref="A0818"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">150</Adult>
+      <UnderAge unit="Visitors/Day">55</UnderAge>
+    </VisitorCount>
   </Exhibition>
-  </Exhibitions>
-</Musium>
+  <Exhibition id="EX011">
+    <Theme ref="TH011"/>
+    <Schedule>
+      <OpeningDate>2026-08-13</OpeningDate>
+      <ClosingDate>2026-11-21</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0895"/>
+      <Artifact ref="A0896"/>
+      <Artifact ref="A0897"/>
+      <Artifact ref="A0898"/>
+      <Artifact ref="A0899"/>
+      <Artifact ref="A0900"/>
+      <Artifact ref="A0901"/>
+      <Artifact ref="A0902"/>
+      <Artifact ref="A0903"/>
+      <Artifact ref="A0904"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">157</Adult>
+      <UnderAge unit="Visitors/Day">58</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX012">
+    <Theme ref="TH012"/>
+    <Schedule>
+      <OpeningDate>2026-09-03</OpeningDate>
+      <ClosingDate>2026-12-13</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0991"/>
+      <Artifact ref="A0992"/>
+      <Artifact ref="A0993"/>
+      <Artifact ref="A0994"/>
+      <Artifact ref="A0995"/>
+      <Artifact ref="A0996"/>
+      <Artifact ref="A0997"/>
+      <Artifact ref="A0998"/>
+      <Artifact ref="A0999"/>
+      <Artifact ref="A1000"/>
+      <Artifact ref="A0918"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">164</Adult>
+      <UnderAge unit="Visitors/Day">61</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX013">
+    <Theme ref="TH001"/>
+    <Schedule>
+      <OpeningDate>2026-09-24</OpeningDate>
+      <ClosingDate>2027-01-04</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0002"/>
+      <Artifact ref="A0003"/>
+      <Artifact ref="A0004"/>
+      <Artifact ref="A0005"/>
+      <Artifact ref="A0006"/>
+      <Artifact ref="A0007"/>
+      <Artifact ref="A0008"/>
+      <Artifact ref="A0009"/>
+      <Artifact ref="A0010"/>
+      <Artifact ref="A0011"/>
+      <Artifact ref="A0012"/>
+      <Artifact ref="A0013"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">171</Adult>
+      <UnderAge unit="Visitors/Day">64</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX014">
+    <Theme ref="TH002"/>
+    <Schedule>
+      <OpeningDate>2026-10-15</OpeningDate>
+      <ClosingDate>2027-01-26</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0099"/>
+      <Artifact ref="A0100"/>
+      <Artifact ref="A0101"/>
+      <Artifact ref="A0102"/>
+      <Artifact ref="A0103"/>
+      <Artifact ref="A0104"/>
+      <Artifact ref="A0105"/>
+      <Artifact ref="A0106"/>
+      <Artifact ref="A0107"/>
+      <Artifact ref="A0108"/>
+      <Artifact ref="A0109"/>
+      <Artifact ref="A0110"/>
+      <Artifact ref="A0111"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">178</Adult>
+      <UnderAge unit="Visitors/Day">67</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX015">
+    <Theme ref="TH003"/>
+    <Schedule>
+      <OpeningDate>2026-11-05</OpeningDate>
+      <ClosingDate>2027-02-17</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0196"/>
+      <Artifact ref="A0197"/>
+      <Artifact ref="A0198"/>
+      <Artifact ref="A0199"/>
+      <Artifact ref="A0200"/>
+      <Artifact ref="A0201"/>
+      <Artifact ref="A0202"/>
+      <Artifact ref="A0203"/>
+      <Artifact ref="A0204"/>
+      <Artifact ref="A0205"/>
+      <Artifact ref="A0206"/>
+      <Artifact ref="A0207"/>
+      <Artifact ref="A0208"/>
+      <Artifact ref="A0209"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">185</Adult>
+      <UnderAge unit="Visitors/Day">70</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX016">
+    <Theme ref="TH004"/>
+    <Schedule>
+      <OpeningDate>2026-11-26</OpeningDate>
+      <ClosingDate>2027-03-11</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0293"/>
+      <Artifact ref="A0294"/>
+      <Artifact ref="A0295"/>
+      <Artifact ref="A0296"/>
+      <Artifact ref="A0297"/>
+      <Artifact ref="A0298"/>
+      <Artifact ref="A0299"/>
+      <Artifact ref="A0300"/>
+      <Artifact ref="A0301"/>
+      <Artifact ref="A0302"/>
+      <Artifact ref="A0303"/>
+      <Artifact ref="A0304"/>
+      <Artifact ref="A0305"/>
+      <Artifact ref="A0306"/>
+      <Artifact ref="A0307"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">192</Adult>
+      <UnderAge unit="Visitors/Day">73</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX017">
+    <Theme ref="TH005"/>
+    <Schedule>
+      <OpeningDate>2026-12-17</OpeningDate>
+      <ClosingDate>2027-04-02</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0392"/>
+      <Artifact ref="A0393"/>
+      <Artifact ref="A0394"/>
+      <Artifact ref="A0395"/>
+      <Artifact ref="A0396"/>
+      <Artifact ref="A0397"/>
+      <Artifact ref="A0398"/>
+      <Artifact ref="A0399"/>
+      <Artifact ref="A0400"/>
+      <Artifact ref="A0401"/>
+      <Artifact ref="A0402"/>
+      <Artifact ref="A0403"/>
+      <Artifact ref="A0404"/>
+      <Artifact ref="A0405"/>
+      <Artifact ref="A0406"/>
+      <Artifact ref="A0407"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">199</Adult>
+      <UnderAge unit="Visitors/Day">76</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX018">
+    <Theme ref="TH006"/>
+    <Schedule>
+      <OpeningDate>2027-01-07</OpeningDate>
+      <ClosingDate>2027-04-24</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0488"/>
+      <Artifact ref="A0489"/>
+      <Artifact ref="A0490"/>
+      <Artifact ref="A0491"/>
+      <Artifact ref="A0492"/>
+      <Artifact ref="A0493"/>
+      <Artifact ref="A0494"/>
+      <Artifact ref="A0495"/>
+      <Artifact ref="A0496"/>
+      <Artifact ref="A0497"/>
+      <Artifact ref="A0498"/>
+      <Artifact ref="A0499"/>
+      <Artifact ref="A0500"/>
+      <Artifact ref="A0501"/>
+      <Artifact ref="A0502"/>
+      <Artifact ref="A0420"/>
+      <Artifact ref="A0421"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">206</Adult>
+      <UnderAge unit="Visitors/Day">79</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX019">
+    <Theme ref="TH007"/>
+    <Schedule>
+      <OpeningDate>2027-01-28</OpeningDate>
+      <ClosingDate>2027-05-16</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0584"/>
+      <Artifact ref="A0585"/>
+      <Artifact ref="A0503"/>
+      <Artifact ref="A0504"/>
+      <Artifact ref="A0505"/>
+      <Artifact ref="A0506"/>
+      <Artifact ref="A0507"/>
+      <Artifact ref="A0508"/>
+      <Artifact ref="A0509"/>
+      <Artifact ref="A0510"/>
+      <Artifact ref="A0511"/>
+      <Artifact ref="A0512"/>
+      <Artifact ref="A0513"/>
+      <Artifact ref="A0514"/>
+      <Artifact ref="A0515"/>
+      <Artifact ref="A0516"/>
+      <Artifact ref="A0517"/>
+      <Artifact ref="A0518"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">213</Adult>
+      <UnderAge unit="Visitors/Day">82</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX020">
+    <Theme ref="TH008"/>
+    <Schedule>
+      <OpeningDate>2027-02-18</OpeningDate>
+      <ClosingDate>2027-06-07</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0597"/>
+      <Artifact ref="A0598"/>
+      <Artifact ref="A0599"/>
+      <Artifact ref="A0600"/>
+      <Artifact ref="A0601"/>
+      <Artifact ref="A0602"/>
+      <Artifact ref="A0603"/>
+      <Artifact ref="A0604"/>
+      <Artifact ref="A0605"/>
+      <Artifact ref="A0606"/>
+      <Artifact ref="A0607"/>
+      <Artifact ref="A0608"/>
+      <Artifact ref="A0609"/>
+      <Artifact ref="A0610"/>
+      <Artifact ref="A0611"/>
+      <Artifact ref="A0612"/>
+      <Artifact ref="A0613"/>
+      <Artifact ref="A0614"/>
+      <Artifact ref="A0615"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">220</Adult>
+      <UnderAge unit="Visitors/Day">85</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX021">
+    <Theme ref="TH009"/>
+    <Schedule>
+      <OpeningDate>2027-03-11</OpeningDate>
+      <ClosingDate>2027-06-29</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0693"/>
+      <Artifact ref="A0694"/>
+      <Artifact ref="A0695"/>
+      <Artifact ref="A0696"/>
+      <Artifact ref="A0697"/>
+      <Artifact ref="A0698"/>
+      <Artifact ref="A0699"/>
+      <Artifact ref="A0700"/>
+      <Artifact ref="A0701"/>
+      <Artifact ref="A0702"/>
+      <Artifact ref="A0703"/>
+      <Artifact ref="A0704"/>
+      <Artifact ref="A0705"/>
+      <Artifact ref="A0706"/>
+      <Artifact ref="A0707"/>
+      <Artifact ref="A0708"/>
+      <Artifact ref="A0709"/>
+      <Artifact ref="A0710"/>
+      <Artifact ref="A0711"/>
+      <Artifact ref="A0712"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">227</Adult>
+      <UnderAge unit="Visitors/Day">88</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX022">
+    <Theme ref="TH010"/>
+    <Schedule>
+      <OpeningDate>2027-04-01</OpeningDate>
+      <ClosingDate>2027-07-21</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0789"/>
+      <Artifact ref="A0790"/>
+      <Artifact ref="A0791"/>
+      <Artifact ref="A0792"/>
+      <Artifact ref="A0793"/>
+      <Artifact ref="A0794"/>
+      <Artifact ref="A0795"/>
+      <Artifact ref="A0796"/>
+      <Artifact ref="A0797"/>
+      <Artifact ref="A0798"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">234</Adult>
+      <UnderAge unit="Visitors/Day">91</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX023">
+    <Theme ref="TH011"/>
+    <Schedule>
+      <OpeningDate>2027-04-22</OpeningDate>
+      <ClosingDate>2027-08-12</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0885"/>
+      <Artifact ref="A0886"/>
+      <Artifact ref="A0887"/>
+      <Artifact ref="A0888"/>
+      <Artifact ref="A0889"/>
+      <Artifact ref="A0890"/>
+      <Artifact ref="A0891"/>
+      <Artifact ref="A0892"/>
+      <Artifact ref="A0893"/>
+      <Artifact ref="A0894"/>
+      <Artifact ref="A0895"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">241</Adult>
+      <UnderAge unit="Visitors/Day">94</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX024">
+    <Theme ref="TH012"/>
+    <Schedule>
+      <OpeningDate>2027-05-13</OpeningDate>
+      <ClosingDate>2027-09-03</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0981"/>
+      <Artifact ref="A0982"/>
+      <Artifact ref="A0983"/>
+      <Artifact ref="A0984"/>
+      <Artifact ref="A0985"/>
+      <Artifact ref="A0986"/>
+      <Artifact ref="A0987"/>
+      <Artifact ref="A0988"/>
+      <Artifact ref="A0989"/>
+      <Artifact ref="A0990"/>
+      <Artifact ref="A0991"/>
+      <Artifact ref="A0992"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">248</Adult>
+      <UnderAge unit="Visitors/Day">97</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX025">
+    <Theme ref="TH001"/>
+    <Schedule>
+      <OpeningDate>2027-06-03</OpeningDate>
+      <ClosingDate>2027-09-25</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0074"/>
+      <Artifact ref="A0075"/>
+      <Artifact ref="A0076"/>
+      <Artifact ref="A0077"/>
+      <Artifact ref="A0078"/>
+      <Artifact ref="A0079"/>
+      <Artifact ref="A0080"/>
+      <Artifact ref="A0081"/>
+      <Artifact ref="A0082"/>
+      <Artifact ref="A0083"/>
+      <Artifact ref="A0084"/>
+      <Artifact ref="A0001"/>
+      <Artifact ref="A0002"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">255</Adult>
+      <UnderAge unit="Visitors/Day">100</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX026">
+    <Theme ref="TH002"/>
+    <Schedule>
+      <OpeningDate>2027-06-24</OpeningDate>
+      <ClosingDate>2027-10-17</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0087"/>
+      <Artifact ref="A0088"/>
+      <Artifact ref="A0089"/>
+      <Artifact ref="A0090"/>
+      <Artifact ref="A0091"/>
+      <Artifact ref="A0092"/>
+      <Artifact ref="A0093"/>
+      <Artifact ref="A0094"/>
+      <Artifact ref="A0095"/>
+      <Artifact ref="A0096"/>
+      <Artifact ref="A0097"/>
+      <Artifact ref="A0098"/>
+      <Artifact ref="A0099"/>
+      <Artifact ref="A0100"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">262</Adult>
+      <UnderAge unit="Visitors/Day">103</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX027">
+    <Theme ref="TH003"/>
+    <Schedule>
+      <OpeningDate>2027-07-15</OpeningDate>
+      <ClosingDate>2027-11-08</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0184"/>
+      <Artifact ref="A0185"/>
+      <Artifact ref="A0186"/>
+      <Artifact ref="A0187"/>
+      <Artifact ref="A0188"/>
+      <Artifact ref="A0189"/>
+      <Artifact ref="A0190"/>
+      <Artifact ref="A0191"/>
+      <Artifact ref="A0192"/>
+      <Artifact ref="A0193"/>
+      <Artifact ref="A0194"/>
+      <Artifact ref="A0195"/>
+      <Artifact ref="A0196"/>
+      <Artifact ref="A0197"/>
+      <Artifact ref="A0198"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">269</Adult>
+      <UnderAge unit="Visitors/Day">106</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX028">
+    <Theme ref="TH004"/>
+    <Schedule>
+      <OpeningDate>2027-08-05</OpeningDate>
+      <ClosingDate>2027-11-30</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0281"/>
+      <Artifact ref="A0282"/>
+      <Artifact ref="A0283"/>
+      <Artifact ref="A0284"/>
+      <Artifact ref="A0285"/>
+      <Artifact ref="A0286"/>
+      <Artifact ref="A0287"/>
+      <Artifact ref="A0288"/>
+      <Artifact ref="A0289"/>
+      <Artifact ref="A0290"/>
+      <Artifact ref="A0291"/>
+      <Artifact ref="A0292"/>
+      <Artifact ref="A0293"/>
+      <Artifact ref="A0294"/>
+      <Artifact ref="A0295"/>
+      <Artifact ref="A0296"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">276</Adult>
+      <UnderAge unit="Visitors/Day">109</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX029">
+    <Theme ref="TH005"/>
+    <Schedule>
+      <OpeningDate>2027-08-26</OpeningDate>
+      <ClosingDate>2027-12-22</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0382"/>
+      <Artifact ref="A0383"/>
+      <Artifact ref="A0384"/>
+      <Artifact ref="A0385"/>
+      <Artifact ref="A0386"/>
+      <Artifact ref="A0387"/>
+      <Artifact ref="A0388"/>
+      <Artifact ref="A0389"/>
+      <Artifact ref="A0390"/>
+      <Artifact ref="A0391"/>
+      <Artifact ref="A0392"/>
+      <Artifact ref="A0393"/>
+      <Artifact ref="A0394"/>
+      <Artifact ref="A0395"/>
+      <Artifact ref="A0396"/>
+      <Artifact ref="A0397"/>
+      <Artifact ref="A0398"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">283</Adult>
+      <UnderAge unit="Visitors/Day">112</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX030">
+    <Theme ref="TH006"/>
+    <Schedule>
+      <OpeningDate>2027-09-16</OpeningDate>
+      <ClosingDate>2028-01-13</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0478"/>
+      <Artifact ref="A0479"/>
+      <Artifact ref="A0480"/>
+      <Artifact ref="A0481"/>
+      <Artifact ref="A0482"/>
+      <Artifact ref="A0483"/>
+      <Artifact ref="A0484"/>
+      <Artifact ref="A0485"/>
+      <Artifact ref="A0486"/>
+      <Artifact ref="A0487"/>
+      <Artifact ref="A0488"/>
+      <Artifact ref="A0489"/>
+      <Artifact ref="A0490"/>
+      <Artifact ref="A0491"/>
+      <Artifact ref="A0492"/>
+      <Artifact ref="A0493"/>
+      <Artifact ref="A0494"/>
+      <Artifact ref="A0495"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">290</Adult>
+      <UnderAge unit="Visitors/Day">115</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX031">
+    <Theme ref="TH007"/>
+    <Schedule>
+      <OpeningDate>2027-10-07</OpeningDate>
+      <ClosingDate>2028-01-04</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0574"/>
+      <Artifact ref="A0575"/>
+      <Artifact ref="A0576"/>
+      <Artifact ref="A0577"/>
+      <Artifact ref="A0578"/>
+      <Artifact ref="A0579"/>
+      <Artifact ref="A0580"/>
+      <Artifact ref="A0581"/>
+      <Artifact ref="A0582"/>
+      <Artifact ref="A0583"/>
+      <Artifact ref="A0584"/>
+      <Artifact ref="A0585"/>
+      <Artifact ref="A0503"/>
+      <Artifact ref="A0504"/>
+      <Artifact ref="A0505"/>
+      <Artifact ref="A0506"/>
+      <Artifact ref="A0507"/>
+      <Artifact ref="A0508"/>
+      <Artifact ref="A0509"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">297</Adult>
+      <UnderAge unit="Visitors/Day">118</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX032">
+    <Theme ref="TH008"/>
+    <Schedule>
+      <OpeningDate>2027-10-28</OpeningDate>
+      <ClosingDate>2028-01-26</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0587"/>
+      <Artifact ref="A0588"/>
+      <Artifact ref="A0589"/>
+      <Artifact ref="A0590"/>
+      <Artifact ref="A0591"/>
+      <Artifact ref="A0592"/>
+      <Artifact ref="A0593"/>
+      <Artifact ref="A0594"/>
+      <Artifact ref="A0595"/>
+      <Artifact ref="A0596"/>
+      <Artifact ref="A0597"/>
+      <Artifact ref="A0598"/>
+      <Artifact ref="A0599"/>
+      <Artifact ref="A0600"/>
+      <Artifact ref="A0601"/>
+      <Artifact ref="A0602"/>
+      <Artifact ref="A0603"/>
+      <Artifact ref="A0604"/>
+      <Artifact ref="A0605"/>
+      <Artifact ref="A0606"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">304</Adult>
+      <UnderAge unit="Visitors/Day">121</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX033">
+    <Theme ref="TH009"/>
+    <Schedule>
+      <OpeningDate>2027-11-18</OpeningDate>
+      <ClosingDate>2028-02-17</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0683"/>
+      <Artifact ref="A0684"/>
+      <Artifact ref="A0685"/>
+      <Artifact ref="A0686"/>
+      <Artifact ref="A0687"/>
+      <Artifact ref="A0688"/>
+      <Artifact ref="A0689"/>
+      <Artifact ref="A0690"/>
+      <Artifact ref="A0691"/>
+      <Artifact ref="A0692"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">311</Adult>
+      <UnderAge unit="Visitors/Day">124</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX034">
+    <Theme ref="TH010"/>
+    <Schedule>
+      <OpeningDate>2027-12-09</OpeningDate>
+      <ClosingDate>2028-03-10</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0779"/>
+      <Artifact ref="A0780"/>
+      <Artifact ref="A0781"/>
+      <Artifact ref="A0782"/>
+      <Artifact ref="A0783"/>
+      <Artifact ref="A0784"/>
+      <Artifact ref="A0785"/>
+      <Artifact ref="A0786"/>
+      <Artifact ref="A0787"/>
+      <Artifact ref="A0788"/>
+      <Artifact ref="A0789"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">318</Adult>
+      <UnderAge unit="Visitors/Day">127</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX035">
+    <Theme ref="TH011"/>
+    <Schedule>
+      <OpeningDate>2027-12-30</OpeningDate>
+      <ClosingDate>2028-04-01</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0875"/>
+      <Artifact ref="A0876"/>
+      <Artifact ref="A0877"/>
+      <Artifact ref="A0878"/>
+      <Artifact ref="A0879"/>
+      <Artifact ref="A0880"/>
+      <Artifact ref="A0881"/>
+      <Artifact ref="A0882"/>
+      <Artifact ref="A0883"/>
+      <Artifact ref="A0884"/>
+      <Artifact ref="A0885"/>
+      <Artifact ref="A0886"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">325</Adult>
+      <UnderAge unit="Visitors/Day">130</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX036">
+    <Theme ref="TH012"/>
+    <Schedule>
+      <OpeningDate>2028-01-20</OpeningDate>
+      <ClosingDate>2028-04-23</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0971"/>
+      <Artifact ref="A0972"/>
+      <Artifact ref="A0973"/>
+      <Artifact ref="A0974"/>
+      <Artifact ref="A0975"/>
+      <Artifact ref="A0976"/>
+      <Artifact ref="A0977"/>
+      <Artifact ref="A0978"/>
+      <Artifact ref="A0979"/>
+      <Artifact ref="A0980"/>
+      <Artifact ref="A0981"/>
+      <Artifact ref="A0982"/>
+      <Artifact ref="A0983"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">332</Adult>
+      <UnderAge unit="Visitors/Day">133</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX037">
+    <Theme ref="TH001"/>
+    <Schedule>
+      <OpeningDate>2028-02-10</OpeningDate>
+      <ClosingDate>2028-05-15</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0062"/>
+      <Artifact ref="A0063"/>
+      <Artifact ref="A0064"/>
+      <Artifact ref="A0065"/>
+      <Artifact ref="A0066"/>
+      <Artifact ref="A0067"/>
+      <Artifact ref="A0068"/>
+      <Artifact ref="A0069"/>
+      <Artifact ref="A0070"/>
+      <Artifact ref="A0071"/>
+      <Artifact ref="A0072"/>
+      <Artifact ref="A0073"/>
+      <Artifact ref="A0074"/>
+      <Artifact ref="A0075"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">339</Adult>
+      <UnderAge unit="Visitors/Day">136</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX038">
+    <Theme ref="TH002"/>
+    <Schedule>
+      <OpeningDate>2028-03-02</OpeningDate>
+      <ClosingDate>2028-06-06</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0159"/>
+      <Artifact ref="A0160"/>
+      <Artifact ref="A0161"/>
+      <Artifact ref="A0162"/>
+      <Artifact ref="A0163"/>
+      <Artifact ref="A0164"/>
+      <Artifact ref="A0165"/>
+      <Artifact ref="A0166"/>
+      <Artifact ref="A0167"/>
+      <Artifact ref="A0168"/>
+      <Artifact ref="A0085"/>
+      <Artifact ref="A0086"/>
+      <Artifact ref="A0087"/>
+      <Artifact ref="A0088"/>
+      <Artifact ref="A0089"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">346</Adult>
+      <UnderAge unit="Visitors/Day">139</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX039">
+    <Theme ref="TH003"/>
+    <Schedule>
+      <OpeningDate>2028-03-23</OpeningDate>
+      <ClosingDate>2028-06-28</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0172"/>
+      <Artifact ref="A0173"/>
+      <Artifact ref="A0174"/>
+      <Artifact ref="A0175"/>
+      <Artifact ref="A0176"/>
+      <Artifact ref="A0177"/>
+      <Artifact ref="A0178"/>
+      <Artifact ref="A0179"/>
+      <Artifact ref="A0180"/>
+      <Artifact ref="A0181"/>
+      <Artifact ref="A0182"/>
+      <Artifact ref="A0183"/>
+      <Artifact ref="A0184"/>
+      <Artifact ref="A0185"/>
+      <Artifact ref="A0186"/>
+      <Artifact ref="A0187"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">353</Adult>
+      <UnderAge unit="Visitors/Day">142</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX040">
+    <Theme ref="TH004"/>
+    <Schedule>
+      <OpeningDate>2028-04-13</OpeningDate>
+      <ClosingDate>2028-07-20</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0269"/>
+      <Artifact ref="A0270"/>
+      <Artifact ref="A0271"/>
+      <Artifact ref="A0272"/>
+      <Artifact ref="A0273"/>
+      <Artifact ref="A0274"/>
+      <Artifact ref="A0275"/>
+      <Artifact ref="A0276"/>
+      <Artifact ref="A0277"/>
+      <Artifact ref="A0278"/>
+      <Artifact ref="A0279"/>
+      <Artifact ref="A0280"/>
+      <Artifact ref="A0281"/>
+      <Artifact ref="A0282"/>
+      <Artifact ref="A0283"/>
+      <Artifact ref="A0284"/>
+      <Artifact ref="A0285"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">360</Adult>
+      <UnderAge unit="Visitors/Day">145</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX041">
+    <Theme ref="TH005"/>
+    <Schedule>
+      <OpeningDate>2028-05-04</OpeningDate>
+      <ClosingDate>2028-08-11</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0372"/>
+      <Artifact ref="A0373"/>
+      <Artifact ref="A0374"/>
+      <Artifact ref="A0375"/>
+      <Artifact ref="A0376"/>
+      <Artifact ref="A0377"/>
+      <Artifact ref="A0378"/>
+      <Artifact ref="A0379"/>
+      <Artifact ref="A0380"/>
+      <Artifact ref="A0381"/>
+      <Artifact ref="A0382"/>
+      <Artifact ref="A0383"/>
+      <Artifact ref="A0384"/>
+      <Artifact ref="A0385"/>
+      <Artifact ref="A0386"/>
+      <Artifact ref="A0387"/>
+      <Artifact ref="A0388"/>
+      <Artifact ref="A0389"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">367</Adult>
+      <UnderAge unit="Visitors/Day">148</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX042">
+    <Theme ref="TH006"/>
+    <Schedule>
+      <OpeningDate>2028-05-25</OpeningDate>
+      <ClosingDate>2028-09-02</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0468"/>
+      <Artifact ref="A0469"/>
+      <Artifact ref="A0470"/>
+      <Artifact ref="A0471"/>
+      <Artifact ref="A0472"/>
+      <Artifact ref="A0473"/>
+      <Artifact ref="A0474"/>
+      <Artifact ref="A0475"/>
+      <Artifact ref="A0476"/>
+      <Artifact ref="A0477"/>
+      <Artifact ref="A0478"/>
+      <Artifact ref="A0479"/>
+      <Artifact ref="A0480"/>
+      <Artifact ref="A0481"/>
+      <Artifact ref="A0482"/>
+      <Artifact ref="A0483"/>
+      <Artifact ref="A0484"/>
+      <Artifact ref="A0485"/>
+      <Artifact ref="A0486"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">374</Adult>
+      <UnderAge unit="Visitors/Day">151</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX043">
+    <Theme ref="TH007"/>
+    <Schedule>
+      <OpeningDate>2028-06-15</OpeningDate>
+      <ClosingDate>2028-09-24</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0564"/>
+      <Artifact ref="A0565"/>
+      <Artifact ref="A0566"/>
+      <Artifact ref="A0567"/>
+      <Artifact ref="A0568"/>
+      <Artifact ref="A0569"/>
+      <Artifact ref="A0570"/>
+      <Artifact ref="A0571"/>
+      <Artifact ref="A0572"/>
+      <Artifact ref="A0573"/>
+      <Artifact ref="A0574"/>
+      <Artifact ref="A0575"/>
+      <Artifact ref="A0576"/>
+      <Artifact ref="A0577"/>
+      <Artifact ref="A0578"/>
+      <Artifact ref="A0579"/>
+      <Artifact ref="A0580"/>
+      <Artifact ref="A0581"/>
+      <Artifact ref="A0582"/>
+      <Artifact ref="A0583"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">381</Adult>
+      <UnderAge unit="Visitors/Day">154</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX044">
+    <Theme ref="TH008"/>
+    <Schedule>
+      <OpeningDate>2028-07-06</OpeningDate>
+      <ClosingDate>2028-10-16</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0660"/>
+      <Artifact ref="A0661"/>
+      <Artifact ref="A0662"/>
+      <Artifact ref="A0663"/>
+      <Artifact ref="A0664"/>
+      <Artifact ref="A0665"/>
+      <Artifact ref="A0666"/>
+      <Artifact ref="A0667"/>
+      <Artifact ref="A0668"/>
+      <Artifact ref="A0586"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">388</Adult>
+      <UnderAge unit="Visitors/Day">157</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX045">
+    <Theme ref="TH009"/>
+    <Schedule>
+      <OpeningDate>2028-07-27</OpeningDate>
+      <ClosingDate>2028-11-07</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0673"/>
+      <Artifact ref="A0674"/>
+      <Artifact ref="A0675"/>
+      <Artifact ref="A0676"/>
+      <Artifact ref="A0677"/>
+      <Artifact ref="A0678"/>
+      <Artifact ref="A0679"/>
+      <Artifact ref="A0680"/>
+      <Artifact ref="A0681"/>
+      <Artifact ref="A0682"/>
+      <Artifact ref="A0683"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">395</Adult>
+      <UnderAge unit="Visitors/Day">160</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX046">
+    <Theme ref="TH010"/>
+    <Schedule>
+      <OpeningDate>2028-08-17</OpeningDate>
+      <ClosingDate>2028-11-29</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0769"/>
+      <Artifact ref="A0770"/>
+      <Artifact ref="A0771"/>
+      <Artifact ref="A0772"/>
+      <Artifact ref="A0773"/>
+      <Artifact ref="A0774"/>
+      <Artifact ref="A0775"/>
+      <Artifact ref="A0776"/>
+      <Artifact ref="A0777"/>
+      <Artifact ref="A0778"/>
+      <Artifact ref="A0779"/>
+      <Artifact ref="A0780"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">402</Adult>
+      <UnderAge unit="Visitors/Day">163</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX047">
+    <Theme ref="TH011"/>
+    <Schedule>
+      <OpeningDate>2028-09-07</OpeningDate>
+      <ClosingDate>2028-12-21</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0865"/>
+      <Artifact ref="A0866"/>
+      <Artifact ref="A0867"/>
+      <Artifact ref="A0868"/>
+      <Artifact ref="A0869"/>
+      <Artifact ref="A0870"/>
+      <Artifact ref="A0871"/>
+      <Artifact ref="A0872"/>
+      <Artifact ref="A0873"/>
+      <Artifact ref="A0874"/>
+      <Artifact ref="A0875"/>
+      <Artifact ref="A0876"/>
+      <Artifact ref="A0877"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">409</Adult>
+      <UnderAge unit="Visitors/Day">166</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX048">
+    <Theme ref="TH012"/>
+    <Schedule>
+      <OpeningDate>2028-09-28</OpeningDate>
+      <ClosingDate>2029-01-12</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0961"/>
+      <Artifact ref="A0962"/>
+      <Artifact ref="A0963"/>
+      <Artifact ref="A0964"/>
+      <Artifact ref="A0965"/>
+      <Artifact ref="A0966"/>
+      <Artifact ref="A0967"/>
+      <Artifact ref="A0968"/>
+      <Artifact ref="A0969"/>
+      <Artifact ref="A0970"/>
+      <Artifact ref="A0971"/>
+      <Artifact ref="A0972"/>
+      <Artifact ref="A0973"/>
+      <Artifact ref="A0974"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">416</Adult>
+      <UnderAge unit="Visitors/Day">169</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX049">
+    <Theme ref="TH001"/>
+    <Schedule>
+      <OpeningDate>2028-10-19</OpeningDate>
+      <ClosingDate>2029-02-03</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0050"/>
+      <Artifact ref="A0051"/>
+      <Artifact ref="A0052"/>
+      <Artifact ref="A0053"/>
+      <Artifact ref="A0054"/>
+      <Artifact ref="A0055"/>
+      <Artifact ref="A0056"/>
+      <Artifact ref="A0057"/>
+      <Artifact ref="A0058"/>
+      <Artifact ref="A0059"/>
+      <Artifact ref="A0060"/>
+      <Artifact ref="A0061"/>
+      <Artifact ref="A0062"/>
+      <Artifact ref="A0063"/>
+      <Artifact ref="A0064"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">423</Adult>
+      <UnderAge unit="Visitors/Day">172</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+  <Exhibition id="EX050">
+    <Theme ref="TH002"/>
+    <Schedule>
+      <OpeningDate>2028-11-09</OpeningDate>
+      <ClosingDate>2029-02-25</ClosingDate>
+    </Schedule>
+    <Artifacts>
+      <Artifact ref="A0147"/>
+      <Artifact ref="A0148"/>
+      <Artifact ref="A0149"/>
+      <Artifact ref="A0150"/>
+      <Artifact ref="A0151"/>
+      <Artifact ref="A0152"/>
+      <Artifact ref="A0153"/>
+      <Artifact ref="A0154"/>
+      <Artifact ref="A0155"/>
+      <Artifact ref="A0156"/>
+      <Artifact ref="A0157"/>
+      <Artifact ref="A0158"/>
+      <Artifact ref="A0159"/>
+      <Artifact ref="A0160"/>
+      <Artifact ref="A0161"/>
+      <Artifact ref="A0162"/>
+    </Artifacts>
+    <VisitorCount>
+      <Adult unit="Visitors/Day">430</Adult>
+      <UnderAge unit="Visitors/Day">175</UnderAge>
+    </VisitorCount>
+  </Exhibition>
+</Exhibitions>

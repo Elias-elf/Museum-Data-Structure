@@ -1,0 +1,53 @@
+BUSINESS RULE VALIDATION: PASS
+
+Counts
+------
+Artifacts: 1000
+Collections: 30
+Themes: 12
+Exhibitions: 50
+Restoration projects: 100
+Artifacts currently in one restoration project: 350
+
+Rules checked
+-------------
+1. Every collection contains artifacts from at least two Themes; no strict Theme-to-Collection ownership exists.
+2. All artifacts originate from retained Art Institute of Chicago catalog records, with source identifiers and URLs.
+3. Every artifact reference in every exhibition has the exhibition's Theme.
+4. Every restoration project has a nonempty common value for its Responsible/Domain.
+5. Every Responsible/Expertise value is derived from that project's shared domain value.
+6. Every project artifact has under_restoration=true, a nonnegative past record count, and a project-specific scope.
+7. Every nonproject artifact has under_restoration=false, a nonnegative past record count, and no scope element.
+
+Inferred Theme diversity per Collection
+---------------------------------------
+COL001: 9 Themes
+COL002: 5 Themes
+COL003: 9 Themes
+COL004: 12 Themes
+COL005: 9 Themes
+COL006: 8 Themes
+COL007: 11 Themes
+COL008: 9 Themes
+COL009: 6 Themes
+COL010: 12 Themes
+COL011: 11 Themes
+COL012: 12 Themes
+COL013: 12 Themes
+COL014: 8 Themes
+COL015: 11 Themes
+COL016: 8 Themes
+COL017: 7 Themes
+COL018: 5 Themes
+COL019: 9 Themes
+COL020: 4 Themes
+COL021: 5 Themes
+COL022: 9 Themes
+COL023: 12 Themes
+COL024: 12 Themes
+COL025: 7 Themes
+COL026: 10 Themes
+COL027: 8 Themes
+COL028: 8 Themes
+COL029: 12 Themes
+COL030: 12 Themes

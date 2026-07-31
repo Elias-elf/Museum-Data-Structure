@@ -1,124 +1,1353 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- <?xml-stylesheet type="text/xsl" href="transfo1.xsl" ?> -->
+<?xml version='1.0' encoding='UTF-8'?>
 <Restoration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Restoration.xsd">
-	<Project id="P0001">
-		<Loan currency="EUR">5000</Loan>
-		<Collection_Artifacts type="Collection">
-			<Collection ref="COL003"/>
-		</Collection_Artifacts>
-		<ResponsibleRef ref="R3001"/>
-	</Project>
-	<Project id="P0002">
-		<Loan currency="EUR">800</Loan>
-		<Collection_Artifacts type="Artifact">
-			<Artifact ref="ART001"/>
-		</Collection_Artifacts>
-		<ResponsibleRef ref="R3007"/>
-	</Project>
-	<Project id="P0003">
-		<Loan currency="EUR">1200</Loan>
-		<Collection_Artifacts type="Artifact">
-			<Artifact ref="ART003"/>
-		</Collection_Artifacts>
-		<ResponsibleRef ref="R3001"/>
-	</Project>
-	<Project id="P0004">
-		<Loan currency="EUR">3000</Loan>
-		<Collection_Artifacts type="Collection">
-			<Collection ref="COL005"/>
-		</Collection_Artifacts>
-		<ResponsibleRef ref="R3003"/>
-	</Project>
-	<Project id="P0005">
-		<Loan currency="EUR">950</Loan>
-		<Collection_Artifacts type="Artifact">
-			<Artifact ref="ART005"/>
-		</Collection_Artifacts>
-		<ResponsibleRef ref="R3003"/>
-	</Project>
-	<Project id="P0006">
-		<Loan currency="EUR">2500</Loan>
-		<Collection_Artifacts type="Artifact">
-			<Artifact ref="ART012"/>
-		</Collection_Artifacts>
-		<ResponsibleRef ref="R3007"/>
-	</Project>
-	<Project id="P0007">
-		<Loan currency="EUR">1100</Loan>
-		<Collection_Artifacts type="Artifact">
-			<Artifact ref="ART013"/>
-		</Collection_Artifacts>
-		<ResponsibleRef ref="R3005"/>
-	</Project>
-	<Project id="P0008">
-		<Loan currency="EUR">4000</Loan>
-		<Collection_Artifacts type="Collection">
-			<Collection ref="COL008"/>
-		</Collection_Artifacts>
-		<ResponsibleRef ref="R3004"/>
-	</Project>
-	<Project id="P0009">
-		<Loan currency="EUR">600</Loan>
-		<Collection_Artifacts type="Artifact">
-			<Artifact ref="ART007"/>
-		</Collection_Artifacts>
-		<ResponsibleRef ref="R3005"/>
-	</Project>
-	<Project id="P0010">
-		<Loan currency="EUR">1800</Loan>
-		<Collection_Artifacts type="Collection">
-			<Collection ref="COL009"/>
-		</Collection_Artifacts>
-		<ResponsibleRef ref="R3008"/>
-	</Project>
-	<Team>
-		<Member id="R3001">
-			<Name>Sofia</Name>
-			<LastName>Marchetti</LastName>
-			<Role>Stone Conservation Specialist</Role>
-			<Department>Sculpture Conservation</Department>
-		</Member>
-		<Member id="R3002">
-			<Name>James</Name>
-			<LastName>Lopez</LastName>
-			<Role>Objects Conservator</Role>
-			<Department>Ancient Near Eastern Collections</Department>
-		</Member>
-		<Member id="R3003">
-			<Name>Amara</Name>
-			<LastName>Okafor</LastName>
-			<Role>Textile and Manuscript Conservator</Role>
-			<Department>Medieval Collections</Department>
-		</Member>
-		<Member id="R3004">
-			<Name>Hiroshi</Name>
-			<LastName>Tanaka</LastName>
-			<Role>Ceramics Conservator</Role>
-			<Department>Asian Art Department</Department>
-		</Member>
-		<Member id="R3005">
-			<Name>Elena</Name>
-			<LastName>Petrova</LastName>
-			<Role>Metals Conservator</Role>
-			<Department>Bronze and Metalwork</Department>
-		</Member>
-		<Member id="R3006">
-			<Name>Marco</Name>
-			<LastName>Rossi</LastName>
-			<Role>Paintings Conservator</Role>
-			<Department>European Paintings</Department>
-		</Member>
-		<Member id="R3007">
-			<Name>Fatima</Name>
-			<LastName>Al-Sayed</LastName>
-			<Role>Epigraphy and Stone Conservator</Role>
-			<Department>Egyptian Antiquities</Department>
-		</Member>
-		<Member id="R3008">
-			<Name>Kwame</Name>
-			<LastName>Mensah</LastName>
-			<Role>Wood and Organic Materials Conservator</Role>
-			<Department>African and Oceanic Collections</Department>
-		</Member>
-	</Team>
+  <Project id="RP001">
+    <Loan currency="EUR">27750</Loan>
+    <Artifacts>
+      <Artifact ref="A0004"/>
+      <Artifact ref="A0008"/>
+      <Artifact ref="A0020"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Leila Haddad</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Ceramic Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP002">
+    <Loan currency="EUR">30500</Loan>
+    <Artifacts>
+      <Artifact ref="A0085"/>
+      <Artifact ref="A0086"/>
+      <Artifact ref="A0087"/>
+      <Artifact ref="A0088"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Marco Rossi</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Ancient Greek Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP003">
+    <Loan currency="EUR">33250</Loan>
+    <Artifacts>
+      <Artifact ref="A0001"/>
+      <Artifact ref="A0003"/>
+      <Artifact ref="A0005"/>
+      <Artifact ref="A0006"/>
+      <Artifact ref="A0007"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Amina Diallo</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Egypt Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP004">
+    <Loan currency="EUR">36000</Loan>
+    <Artifacts>
+      <Artifact ref="A0002"/>
+      <Artifact ref="A0009"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Hiroshi Tanaka</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Archaeological Objects Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP005">
+    <Loan currency="EUR">38750</Loan>
+    <Artifacts>
+      <Artifact ref="A0011"/>
+      <Artifact ref="A0018"/>
+      <Artifact ref="A0027"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Sofia Alvarez</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Gold Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP006">
+    <Loan currency="EUR">41500</Loan>
+    <Artifacts>
+      <Artifact ref="A0169"/>
+      <Artifact ref="A0170"/>
+      <Artifact ref="A0171"/>
+      <Artifact ref="A0172"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Daniel Okafor</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Roman and Byzantine Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP007">
+    <Loan currency="EUR">44250</Loan>
+    <Artifacts>
+      <Artifact ref="A0586"/>
+      <Artifact ref="A0587"/>
+      <Artifact ref="A0588"/>
+      <Artifact ref="A0589"/>
+      <Artifact ref="A0590"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Mei Lin Chen</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Japan Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP008">
+    <Loan currency="EUR">47000</Loan>
+    <Artifacts>
+      <Artifact ref="A0024"/>
+      <Artifact ref="A0032"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Nadia Rahman</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Ceramics and Terracotta Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP009">
+    <Loan currency="EUR">49750</Loan>
+    <Artifacts>
+      <Artifact ref="A0015"/>
+      <Artifact ref="A0025"/>
+      <Artifact ref="A0028"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Thomas Weber</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Wood Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP010">
+    <Loan currency="EUR">52500</Loan>
+    <Artifacts>
+      <Artifact ref="A0253"/>
+      <Artifact ref="A0254"/>
+      <Artifact ref="A0255"/>
+      <Artifact ref="A0256"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Priya Nair</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Medieval European Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP011">
+    <Loan currency="EUR">55250</Loan>
+    <Artifacts>
+      <Artifact ref="A0503"/>
+      <Artifact ref="A0504"/>
+      <Artifact ref="A0505"/>
+      <Artifact ref="A0506"/>
+      <Artifact ref="A0507"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Elena Petrova</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>China Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP012">
+    <Loan currency="EUR">58000</Loan>
+    <Artifacts>
+      <Artifact ref="A0193"/>
+      <Artifact ref="A0194"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Gabriel Martin</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Medieval Worlds Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP013">
+    <Loan currency="EUR">60750</Loan>
+    <Artifacts>
+      <Artifact ref="A0039"/>
+      <Artifact ref="A0103"/>
+      <Artifact ref="A0105"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Yuki Sato</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Silver Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP014">
+    <Loan currency="EUR">63500</Loan>
+    <Artifacts>
+      <Artifact ref="A0337"/>
+      <Artifact ref="A0338"/>
+      <Artifact ref="A0339"/>
+      <Artifact ref="A0340"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Maya Thompson</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Renaissance and Baroque European Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP015">
+    <Loan currency="EUR">66250</Loan>
+    <Artifacts>
+      <Artifact ref="A0057"/>
+      <Artifact ref="A0127"/>
+      <Artifact ref="A0229"/>
+      <Artifact ref="A0239"/>
+      <Artifact ref="A0260"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Omar Khalil</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Italy Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP016">
+    <Loan currency="EUR">69000</Loan>
+    <Artifacts>
+      <Artifact ref="A0019"/>
+      <Artifact ref="A0026"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Lucia Ferreira</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Vessels and Containers Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP017">
+    <Loan currency="EUR">71750</Loan>
+    <Artifacts>
+      <Artifact ref="A0010"/>
+      <Artifact ref="A0012"/>
+      <Artifact ref="A0014"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Samuel Mensah</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Stone Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP018">
+    <Loan currency="EUR">74500</Loan>
+    <Artifacts>
+      <Artifact ref="A0420"/>
+      <Artifact ref="A0421"/>
+      <Artifact ref="A0422"/>
+      <Artifact ref="A0423"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Anika Shah</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Islamic Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP019">
+    <Loan currency="EUR">77250</Loan>
+    <Artifacts>
+      <Artifact ref="A0262"/>
+      <Artifact ref="A0267"/>
+      <Artifact ref="A0274"/>
+      <Artifact ref="A0275"/>
+      <Artifact ref="A0278"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Claire Dubois</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>France Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP020">
+    <Loan currency="EUR">80000</Loan>
+    <Artifacts>
+      <Artifact ref="A0016"/>
+      <Artifact ref="A0021"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>David Kim</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Sculpture and Relief Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP021">
+    <Loan currency="EUR">82750</Loan>
+    <Artifacts>
+      <Artifact ref="A0084"/>
+      <Artifact ref="A0093"/>
+      <Artifact ref="A0122"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Leila Haddad</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Bronze Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP022">
+    <Loan currency="EUR">85500</Loan>
+    <Artifacts>
+      <Artifact ref="A0669"/>
+      <Artifact ref="A0670"/>
+      <Artifact ref="A0671"/>
+      <Artifact ref="A0672"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Marco Rossi</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>South and Southeast Asian Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP023">
+    <Loan currency="EUR">88250</Loan>
+    <Artifacts>
+      <Artifact ref="A0924"/>
+      <Artifact ref="A0926"/>
+      <Artifact ref="A0935"/>
+      <Artifact ref="A0937"/>
+      <Artifact ref="A0940"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Amina Diallo</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Peruvian North Coast Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP024">
+    <Loan currency="EUR">91000</Loan>
+    <Artifacts>
+      <Artifact ref="A0013"/>
+      <Artifact ref="A0017"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Hiroshi Tanaka</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Ancient Worlds Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP025">
+    <Loan currency="EUR">93750</Loan>
+    <Artifacts>
+      <Artifact ref="A0056"/>
+      <Artifact ref="A0060"/>
+      <Artifact ref="A0076"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Sofia Alvarez</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Glass Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP026">
+    <Loan currency="EUR">96500</Loan>
+    <Artifacts>
+      <Artifact ref="A0752"/>
+      <Artifact ref="A0753"/>
+      <Artifact ref="A0754"/>
+      <Artifact ref="A0755"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Daniel Okafor</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>African Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP027">
+    <Loan currency="EUR">99250</Loan>
+    <Artifacts>
+      <Artifact ref="A0426"/>
+      <Artifact ref="A0427"/>
+      <Artifact ref="A0430"/>
+      <Artifact ref="A0431"/>
+      <Artifact ref="A0432"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Mei Lin Chen</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Iran Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP028">
+    <Loan currency="EUR">102000</Loan>
+    <Artifacts>
+      <Artifact ref="A0036"/>
+      <Artifact ref="A0040"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Nadia Rahman</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Cross-Cultural Connections Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP029">
+    <Loan currency="EUR">104750</Loan>
+    <Artifacts>
+      <Artifact ref="A0106"/>
+      <Artifact ref="A0117"/>
+      <Artifact ref="A0123"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Thomas Weber</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Marble Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP030">
+    <Loan currency="EUR">107500</Loan>
+    <Artifacts>
+      <Artifact ref="A0835"/>
+      <Artifact ref="A0836"/>
+      <Artifact ref="A0837"/>
+      <Artifact ref="A0838"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Priya Nair</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Indigenous North American Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP031">
+    <Loan currency="EUR">110250</Loan>
+    <Artifacts>
+      <Artifact ref="A0443"/>
+      <Artifact ref="A0448"/>
+      <Artifact ref="A0466"/>
+      <Artifact ref="A0468"/>
+      <Artifact ref="A0469"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Elena Petrova</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>India Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP032">
+    <Loan currency="EUR">113000</Loan>
+    <Artifacts>
+      <Artifact ref="A0029"/>
+      <Artifact ref="A0042"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Gabriel Martin</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Goldwork Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP033">
+    <Loan currency="EUR">115750</Loan>
+    <Artifacts>
+      <Artifact ref="A0283"/>
+      <Artifact ref="A0307"/>
+      <Artifact ref="A0355"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Yuki Sato</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Iron Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP034">
+    <Loan currency="EUR">118500</Loan>
+    <Artifacts>
+      <Artifact ref="A0508"/>
+      <Artifact ref="A0509"/>
+      <Artifact ref="A0510"/>
+      <Artifact ref="A0511"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Maya Thompson</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Chinese Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP035">
+    <Loan currency="EUR">121250</Loan>
+    <Artifacts>
+      <Artifact ref="A0089"/>
+      <Artifact ref="A0095"/>
+      <Artifact ref="A0101"/>
+      <Artifact ref="A0109"/>
+      <Artifact ref="A0111"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Omar Khalil</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Athens Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP036">
+    <Loan currency="EUR">124000</Loan>
+    <Artifacts>
+      <Artifact ref="A0445"/>
+      <Artifact ref="A0451"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Lucia Ferreira</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Modern and Contemporary Objects Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP037">
+    <Loan currency="EUR">126750</Loan>
+    <Artifacts>
+      <Artifact ref="A0037"/>
+      <Artifact ref="A0038"/>
+      <Artifact ref="A0045"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Samuel Mensah</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Ceramic Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP038">
+    <Loan currency="EUR">129500</Loan>
+    <Artifacts>
+      <Artifact ref="A0591"/>
+      <Artifact ref="A0592"/>
+      <Artifact ref="A0593"/>
+      <Artifact ref="A0594"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Anika Shah</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Japanese Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP039">
+    <Loan currency="EUR">132250</Loan>
+    <Artifacts>
+      <Artifact ref="A0140"/>
+      <Artifact ref="A0159"/>
+      <Artifact ref="A0173"/>
+      <Artifact ref="A0174"/>
+      <Artifact ref="A0176"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Claire Dubois</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Syria Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP040">
+    <Loan currency="EUR">135000</Loan>
+    <Artifacts>
+      <Artifact ref="A0112"/>
+      <Artifact ref="A0181"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>David Kim</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Decorative Arts Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP041">
+    <Loan currency="EUR">137750</Loan>
+    <Artifacts>
+      <Artifact ref="A0069"/>
+      <Artifact ref="A0071"/>
+      <Artifact ref="A0073"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Leila Haddad</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Gold Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP042">
+    <Loan currency="EUR">140500</Loan>
+    <Artifacts>
+      <Artifact ref="A0918"/>
+      <Artifact ref="A0919"/>
+      <Artifact ref="A0920"/>
+      <Artifact ref="A0921"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Marco Rossi</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Mesoamerican and Andean Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP043">
+    <Loan currency="EUR">143250</Loan>
+    <Artifacts>
+      <Artifact ref="A0675"/>
+      <Artifact ref="A0677"/>
+      <Artifact ref="A0680"/>
+      <Artifact ref="A0681"/>
+      <Artifact ref="A0682"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Amina Diallo</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Southeast Asia Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP044">
+    <Loan currency="EUR">146000</Loan>
+    <Artifacts>
+      <Artifact ref="A0055"/>
+      <Artifact ref="A0079"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Hiroshi Tanaka</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Ritual and Devotional Objects Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP045">
+    <Loan currency="EUR">148750</Loan>
+    <Artifacts>
+      <Artifact ref="A0033"/>
+      <Artifact ref="A0041"/>
+      <Artifact ref="A0082"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Sofia Alvarez</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Wood Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP046">
+    <Loan currency="EUR">151500</Loan>
+    <Artifacts>
+      <Artifact ref="A0022"/>
+      <Artifact ref="A0023"/>
+      <Artifact ref="A0030"/>
+      <Artifact ref="A0031"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Daniel Okafor</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Ancient Egyptian Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP047">
+    <Loan currency="EUR">154250</Loan>
+    <Artifacts>
+      <Artifact ref="A0758"/>
+      <Artifact ref="A0760"/>
+      <Artifact ref="A0765"/>
+      <Artifact ref="A0766"/>
+      <Artifact ref="A0770"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Mei Lin Chen</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Nigeria Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP048">
+    <Loan currency="EUR">157000</Loan>
+    <Artifacts>
+      <Artifact ref="A0341"/>
+      <Artifact ref="A0342"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Nadia Rahman</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Early Modern Worlds Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP049">
+    <Loan currency="EUR">159750</Loan>
+    <Artifacts>
+      <Artifact ref="A0107"/>
+      <Artifact ref="A0108"/>
+      <Artifact ref="A0139"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Thomas Weber</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Silver Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP050">
+    <Loan currency="EUR">162500</Loan>
+    <Artifacts>
+      <Artifact ref="A0839"/>
+      <Artifact ref="A0840"/>
+      <Artifact ref="A0841"/>
+      <Artifact ref="A0842"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Priya Nair</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Indigenous North American Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP051">
+    <Loan currency="EUR">165250</Loan>
+    <Artifacts>
+      <Artifact ref="A0192"/>
+      <Artifact ref="A0196"/>
+      <Artifact ref="A0198"/>
+      <Artifact ref="A0201"/>
+      <Artifact ref="A0202"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Elena Petrova</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Byzantine Empire Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP052">
+    <Loan currency="EUR">168000</Loan>
+    <Artifacts>
+      <Artifact ref="A0044"/>
+      <Artifact ref="A0047"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Gabriel Martin</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Architectural Elements Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP053">
+    <Loan currency="EUR">170750</Loan>
+    <Artifacts>
+      <Artifact ref="A0034"/>
+      <Artifact ref="A0035"/>
+      <Artifact ref="A0043"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Yuki Sato</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Stone Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP054">
+    <Loan currency="EUR">173500</Loan>
+    <Artifacts>
+      <Artifact ref="A0343"/>
+      <Artifact ref="A0344"/>
+      <Artifact ref="A0345"/>
+      <Artifact ref="A0346"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Maya Thompson</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Renaissance and Baroque European Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP055">
+    <Loan currency="EUR">176250</Loan>
+    <Artifacts>
+      <Artifact ref="A0090"/>
+      <Artifact ref="A0092"/>
+      <Artifact ref="A0097"/>
+      <Artifact ref="A0099"/>
+      <Artifact ref="A0114"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Omar Khalil</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Greece Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP056">
+    <Loan currency="EUR">179000</Loan>
+    <Artifacts>
+      <Artifact ref="A0264"/>
+      <Artifact ref="A0304"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Lucia Ferreira</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Woodwork Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP057">
+    <Loan currency="EUR">181750</Loan>
+    <Artifacts>
+      <Artifact ref="A0148"/>
+      <Artifact ref="A0162"/>
+      <Artifact ref="A0203"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Samuel Mensah</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Bronze Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP058">
+    <Loan currency="EUR">184500</Loan>
+    <Artifacts>
+      <Artifact ref="A0512"/>
+      <Artifact ref="A0513"/>
+      <Artifact ref="A0514"/>
+      <Artifact ref="A0515"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Anika Shah</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Chinese Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP059">
+    <Loan currency="EUR">187250</Loan>
+    <Artifacts>
+      <Artifact ref="A0756"/>
+      <Artifact ref="A0768"/>
+      <Artifact ref="A0771"/>
+      <Artifact ref="A0783"/>
+      <Artifact ref="A0786"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Claire Dubois</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Democratic Republic of the Congo Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP060">
+    <Loan currency="EUR">190000</Loan>
+    <Artifacts>
+      <Artifact ref="A0048"/>
+      <Artifact ref="A0050"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>David Kim</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Jewelry and Adornment Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP061">
+    <Loan currency="EUR">192750</Loan>
+    <Artifacts>
+      <Artifact ref="A0126"/>
+      <Artifact ref="A0175"/>
+      <Artifact ref="A0177"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Leila Haddad</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Glass Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP062">
+    <Loan currency="EUR">195500</Loan>
+    <Artifacts>
+      <Artifact ref="A0595"/>
+      <Artifact ref="A0596"/>
+      <Artifact ref="A0597"/>
+      <Artifact ref="A0598"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Marco Rossi</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Japanese Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP063">
+    <Loan currency="EUR">198250</Loan>
+    <Artifacts>
+      <Artifact ref="A0848"/>
+      <Artifact ref="A0857"/>
+      <Artifact ref="A0860"/>
+      <Artifact ref="A0903"/>
+      <Artifact ref="A0906"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Amina Diallo</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Southwest Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP064">
+    <Loan currency="EUR">201000</Loan>
+    <Artifacts>
+      <Artifact ref="A0142"/>
+      <Artifact ref="A0143"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Hiroshi Tanaka</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Silverwork Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP065">
+    <Loan currency="EUR">203750</Loan>
+    <Artifacts>
+      <Artifact ref="A0359"/>
+      <Artifact ref="A0361"/>
+      <Artifact ref="A0381"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Sofia Alvarez</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Iron Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP066">
+    <Loan currency="EUR">206500</Loan>
+    <Artifacts>
+      <Artifact ref="A0673"/>
+      <Artifact ref="A0674"/>
+      <Artifact ref="A0676"/>
+      <Artifact ref="A0678"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Daniel Okafor</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>South and Southeast Asian Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP067">
+    <Loan currency="EUR">209250</Loan>
+    <Artifacts>
+      <Artifact ref="A0844"/>
+      <Artifact ref="A0845"/>
+      <Artifact ref="A0854"/>
+      <Artifact ref="A0858"/>
+      <Artifact ref="A0861"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Mei Lin Chen</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>New Mexico Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP068">
+    <Loan currency="EUR">212000</Loan>
+    <Artifacts>
+      <Artifact ref="A0049"/>
+      <Artifact ref="A0052"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Nadia Rahman</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Stone and Mineral Works Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP069">
+    <Loan currency="EUR">214750</Loan>
+    <Artifacts>
+      <Artifact ref="A0124"/>
+      <Artifact ref="A0189"/>
+      <Artifact ref="A0226"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Thomas Weber</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Marble Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP070">
+    <Loan currency="EUR">217500</Loan>
+    <Artifacts>
+      <Artifact ref="A0922"/>
+      <Artifact ref="A0923"/>
+      <Artifact ref="A0925"/>
+      <Artifact ref="A0927"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Priya Nair</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Mesoamerican and Andean Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP071">
+    <Loan currency="EUR">220250</Loan>
+    <Artifacts>
+      <Artifact ref="A0277"/>
+      <Artifact ref="A0308"/>
+      <Artifact ref="A0336"/>
+      <Artifact ref="A0347"/>
+      <Artifact ref="A0350"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Elena Petrova</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Spain Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP072">
+    <Loan currency="EUR">223000</Loan>
+    <Artifacts>
+      <Artifact ref="A0066"/>
+      <Artifact ref="A0077"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Gabriel Martin</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Museum Highlights Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP073">
+    <Loan currency="EUR">225750</Loan>
+    <Artifacts>
+      <Artifact ref="A0046"/>
+      <Artifact ref="A0051"/>
+      <Artifact ref="A0058"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Yuki Sato</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Ceramic Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP074">
+    <Loan currency="EUR">228500</Loan>
+    <Artifacts>
+      <Artifact ref="A0757"/>
+      <Artifact ref="A0759"/>
+      <Artifact ref="A0761"/>
+      <Artifact ref="A0762"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Maya Thompson</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>African Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP075">
+    <Loan currency="EUR">231250</Loan>
+    <Artifacts>
+      <Artifact ref="A0679"/>
+      <Artifact ref="A0690"/>
+      <Artifact ref="A0692"/>
+      <Artifact ref="A0693"/>
+      <Artifact ref="A0711"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Omar Khalil</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Thailand Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP076">
+    <Loan currency="EUR">234000</Loan>
+    <Artifacts>
+      <Artifact ref="A0205"/>
+      <Artifact ref="A0208"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Lucia Ferreira</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Bronze Works Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP077">
+    <Loan currency="EUR">236750</Loan>
+    <Artifacts>
+      <Artifact ref="A0128"/>
+      <Artifact ref="A0132"/>
+      <Artifact ref="A0133"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Samuel Mensah</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Gold Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP078">
+    <Loan currency="EUR">239500</Loan>
+    <Artifacts>
+      <Artifact ref="A0257"/>
+      <Artifact ref="A0258"/>
+      <Artifact ref="A0259"/>
+      <Artifact ref="A0261"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Anika Shah</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Medieval European Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP079">
+    <Loan currency="EUR">242250</Loan>
+    <Artifacts>
+      <Artifact ref="A0843"/>
+      <Artifact ref="A0846"/>
+      <Artifact ref="A0851"/>
+      <Artifact ref="A0852"/>
+      <Artifact ref="A0855"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Claire Dubois</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Arizona Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP080">
+    <Loan currency="EUR">245000</Loan>
+    <Artifacts>
+      <Artifact ref="A0062"/>
+      <Artifact ref="A0072"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>David Kim</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Figurines and Miniatures Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP081">
+    <Loan currency="EUR">247750</Loan>
+    <Artifacts>
+      <Artifact ref="A0327"/>
+      <Artifact ref="A0348"/>
+      <Artifact ref="A0354"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Leila Haddad</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Wood Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP082">
+    <Loan currency="EUR">250500</Loan>
+    <Artifacts>
+      <Artifact ref="A0424"/>
+      <Artifact ref="A0425"/>
+      <Artifact ref="A0428"/>
+      <Artifact ref="A0429"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Marco Rossi</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Islamic Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP083">
+    <Loan currency="EUR">253250</Loan>
+    <Artifacts>
+      <Artifact ref="A0280"/>
+      <Artifact ref="A0294"/>
+      <Artifact ref="A0295"/>
+      <Artifact ref="A0303"/>
+      <Artifact ref="A0311"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Amina Diallo</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Germany Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP084">
+    <Loan currency="EUR">256000</Loan>
+    <Artifacts>
+      <Artifact ref="A0178"/>
+      <Artifact ref="A0179"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Hiroshi Tanaka</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Glass Works Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP085">
+    <Loan currency="EUR">258750</Loan>
+    <Artifacts>
+      <Artifact ref="A0144"/>
+      <Artifact ref="A0150"/>
+      <Artifact ref="A0151"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Sofia Alvarez</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Silver Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP086">
+    <Loan currency="EUR">261500</Loan>
+    <Artifacts>
+      <Artifact ref="A0180"/>
+      <Artifact ref="A0182"/>
+      <Artifact ref="A0183"/>
+      <Artifact ref="A0184"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Daniel Okafor</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Roman and Byzantine Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP087">
+    <Loan currency="EUR">264250</Loan>
+    <Artifacts>
+      <Artifact ref="A0606"/>
+      <Artifact ref="A0621"/>
+      <Artifact ref="A0648"/>
+      <Artifact ref="A0878"/>
+      <Artifact ref="A0887"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Mei Lin Chen</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>United States Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP088">
+    <Loan currency="EUR">267000</Loan>
+    <Artifacts>
+      <Artifact ref="A0135"/>
+      <Artifact ref="A0147"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Nadia Rahman</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Coins, Medals and Seals Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP089">
+    <Loan currency="EUR">269750</Loan>
+    <Artifacts>
+      <Artifact ref="A0053"/>
+      <Artifact ref="A0054"/>
+      <Artifact ref="A0059"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Thomas Weber</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Stone Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP090">
+    <Loan currency="EUR">272500</Loan>
+    <Artifacts>
+      <Artifact ref="A0091"/>
+      <Artifact ref="A0094"/>
+      <Artifact ref="A0096"/>
+      <Artifact ref="A0098"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Priya Nair</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Ancient Greek Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP091">
+    <Loan currency="EUR">275250</Loan>
+    <Artifacts>
+      <Artifact ref="A0688"/>
+      <Artifact ref="A0698"/>
+      <Artifact ref="A0702"/>
+      <Artifact ref="A0707"/>
+      <Artifact ref="A0709"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Elena Petrova</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Central Java Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP092">
+    <Loan currency="EUR">278000</Loan>
+    <Artifacts>
+      <Artifact ref="A0463"/>
+      <Artifact ref="A0483"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Gabriel Martin</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Masks, Regalia and Performance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP093">
+    <Loan currency="EUR">280750</Loan>
+    <Artifacts>
+      <Artifact ref="A0214"/>
+      <Artifact ref="A0217"/>
+      <Artifact ref="A0221"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Yuki Sato</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Bronze Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP094">
+    <Loan currency="EUR">283500</Loan>
+    <Artifacts>
+      <Artifact ref="A0061"/>
+      <Artifact ref="A0063"/>
+      <Artifact ref="A0064"/>
+      <Artifact ref="A0065"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Maya Thompson</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Ancient Egyptian Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP095">
+    <Loan currency="EUR">286250</Loan>
+    <Artifacts>
+      <Artifact ref="A0464"/>
+      <Artifact ref="A0473"/>
+      <Artifact ref="A0474"/>
+      <Artifact ref="A0476"/>
+      <Artifact ref="A0481"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Omar Khalil</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Morocco Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP096">
+    <Loan currency="EUR">289000</Loan>
+    <Artifacts>
+      <Artifact ref="A0125"/>
+      <Artifact ref="A0134"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Lucia Ferreira</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Arms and Armor Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP097">
+    <Loan currency="EUR">291750</Loan>
+    <Artifacts>
+      <Artifact ref="A0185"/>
+      <Artifact ref="A0186"/>
+      <Artifact ref="A0187"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Samuel Mensah</FullName>
+      <Domain>Material</Domain>
+      <Expertise>Glass Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP098">
+    <Loan currency="EUR">294500</Loan>
+    <Artifacts>
+      <Artifact ref="A0516"/>
+      <Artifact ref="A0517"/>
+      <Artifact ref="A0518"/>
+      <Artifact ref="A0519"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Anika Shah</FullName>
+      <Domain>CulturalHeritage</Domain>
+      <Expertise>Chinese Cultural Heritage Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP099">
+    <Loan currency="EUR">297250</Loan>
+    <Artifacts>
+      <Artifact ref="A0936"/>
+      <Artifact ref="A0952"/>
+      <Artifact ref="A0975"/>
+      <Artifact ref="A0977"/>
+      <Artifact ref="A0985"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>Claire Dubois</FullName>
+      <Domain>Provenance</Domain>
+      <Expertise>Colima state Provenance Expert</Expertise>
+    </Responsible>
+  </Project>
+  <Project id="RP100">
+    <Loan currency="EUR">300000</Loan>
+    <Artifacts>
+      <Artifact ref="A0137"/>
+      <Artifact ref="A0138"/>
+    </Artifacts>
+    <Responsible>
+      <FullName>David Kim</FullName>
+      <Domain>Collection</Domain>
+      <Expertise>Funerary Objects Expert</Expertise>
+    </Responsible>
+  </Project>
 </Restoration>

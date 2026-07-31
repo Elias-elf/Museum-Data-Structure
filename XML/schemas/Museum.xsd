@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="Artifacts.xsd"/>
+	<xs:include schemaLocation="Collections.xsd"/>
+	<xs:include schemaLocation="Themes.xsd"/>
+	<xs:include schemaLocation="Exhibitions.xsd"/>
+	<xs:include schemaLocation="Restoration.xsd"/>
+	<xs:element name="Museum">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Themes"/>
+				<xs:element ref="Collections"/>
+				<xs:element ref="Artifacts"/>
+				<xs:element ref="Exhibitions"/>
+				<xs:element ref="Restoration"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

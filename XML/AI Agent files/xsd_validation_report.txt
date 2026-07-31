@@ -1,0 +1,8 @@
+XSD VALIDATION: PASS
+
+Museum.xml validates against Museum.xsd.
+Themes.xml validates independently against Themes.xsd.
+Collections.xml validates independently against Collections.xsd.
+
+Artifacts.xml, Exhibitions.xml, and Restoration.xml contain xs:IDREF values whose xs:ID targets live in other section files.
+They are therefore validated together in Museum.xml, where all cross-file ID and IDREF values share one XML document.

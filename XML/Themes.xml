@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Themes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Themes.xsd">
+  <Theme id="TH001">
+    <CulturalHeritage>Ancient Egyptian Cultural Heritage</CulturalHeritage>
+    <Description>Material culture of ancient Egypt, including dynastic, Ptolemaic, funerary, ritual, and everyday objects.</Description>
+  </Theme>
+  <Theme id="TH002">
+    <CulturalHeritage>Ancient Greek Cultural Heritage</CulturalHeritage>
+    <Description>Material culture of the Greek world from the Bronze Age through the Hellenistic period.</Description>
+  </Theme>
+  <Theme id="TH003">
+    <CulturalHeritage>Roman and Byzantine Cultural Heritage</CulturalHeritage>
+    <Description>Objects associated with Roman, late antique, and Byzantine cultural traditions.</Description>
+  </Theme>
+  <Theme id="TH004">
+    <CulturalHeritage>Medieval European Cultural Heritage</CulturalHeritage>
+    <Description>European material culture of the medieval period, including Romanesque and Gothic traditions.</Description>
+  </Theme>
+  <Theme id="TH005">
+    <CulturalHeritage>Renaissance and Baroque European Cultural Heritage</CulturalHeritage>
+    <Description>European decorative and sculptural traditions associated with the Renaissance and Baroque eras.</Description>
+  </Theme>
+  <Theme id="TH006">
+    <CulturalHeritage>Islamic Cultural Heritage</CulturalHeritage>
+    <Description>Material culture from Islamic societies across the Middle East, North Africa, Central Asia, and related regions.</Description>
+  </Theme>
+  <Theme id="TH007">
+    <CulturalHeritage>Chinese Cultural Heritage</CulturalHeritage>
+    <Description>Chinese artistic and material traditions from early dynastic periods through modern times.</Description>
+  </Theme>
+  <Theme id="TH008">
+    <CulturalHeritage>Japanese Cultural Heritage</CulturalHeritage>
+    <Description>Japanese artistic and material traditions, including ritual, domestic, ceramic, and sculptural objects.</Description>
+  </Theme>
+  <Theme id="TH009">
+    <CulturalHeritage>South and Southeast Asian Cultural Heritage</CulturalHeritage>
+    <Description>Material culture of South and Southeast Asia, including Indian, Himalayan, and Southeast Asian traditions.</Description>
+  </Theme>
+  <Theme id="TH010">
+    <CulturalHeritage>African Cultural Heritage</CulturalHeritage>
+    <Description>Material culture from African societies, with ancient Egyptian records classified separately under TH001.</Description>
+  </Theme>
+  <Theme id="TH011">
+    <CulturalHeritage>Indigenous North American Cultural Heritage</CulturalHeritage>
+    <Description>Material culture of Indigenous peoples of North America.</Description>
+  </Theme>
+  <Theme id="TH012">
+    <CulturalHeritage>Mesoamerican and Andean Cultural Heritage</CulturalHeritage>
+    <Description>Material culture associated with Mesoamerican, Central American, and Andean civilizations.</Description>
+  </Theme>
+</Themes>

@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Collections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Collections.xsd">
+  <Collection id="COL001">
+    <Title>Stone and Mineral Works</Title>
+    <Description>Objects made wholly or partly from stone or mineral materials.</Description>
+  </Collection>
+  <Collection id="COL002">
+    <Title>Marble Works</Title>
+    <Description>Sculptural, architectural, and decorative objects made wholly or partly from marble.</Description>
+  </Collection>
+  <Collection id="COL003">
+    <Title>Bronze Works</Title>
+    <Description>Cast, hammered, or assembled objects containing bronze.</Description>
+  </Collection>
+  <Collection id="COL004">
+    <Title>Goldwork</Title>
+    <Description>Objects and adornments containing gold.</Description>
+  </Collection>
+  <Collection id="COL005">
+    <Title>Silverwork</Title>
+    <Description>Objects and adornments containing silver.</Description>
+  </Collection>
+  <Collection id="COL006">
+    <Title>Woodwork</Title>
+    <Description>Carved, joined, painted, or otherwise worked wooden objects.</Description>
+  </Collection>
+  <Collection id="COL007">
+    <Title>Ceramics and Terracotta</Title>
+    <Description>Objects made from ceramic, clay, terracotta, porcelain, earthenware, or stoneware.</Description>
+  </Collection>
+  <Collection id="COL008">
+    <Title>Glass Works</Title>
+    <Description>Objects made wholly or partly from glass.</Description>
+  </Collection>
+  <Collection id="COL009">
+    <Title>Ironwork</Title>
+    <Description>Objects made wholly or partly from iron.</Description>
+  </Collection>
+  <Collection id="COL010">
+    <Title>Sculpture and Relief</Title>
+    <Description>Freestanding sculpture, reliefs, plaques, and related three-dimensional works.</Description>
+  </Collection>
+  <Collection id="COL011">
+    <Title>Vessels and Containers</Title>
+    <Description>Vessels, jars, bowls, cups, bottles, boxes, and other containers.</Description>
+  </Collection>
+  <Collection id="COL012">
+    <Title>Jewelry and Adornment</Title>
+    <Description>Personal ornaments, jewelry, dress accessories, and adornment.</Description>
+  </Collection>
+  <Collection id="COL013">
+    <Title>Ritual and Devotional Objects</Title>
+    <Description>Objects made or used for religious, ceremonial, or devotional purposes.</Description>
+  </Collection>
+  <Collection id="COL014">
+    <Title>Funerary Objects</Title>
+    <Description>Objects made or used in funerary and mortuary contexts.</Description>
+  </Collection>
+  <Collection id="COL015">
+    <Title>Architectural Elements</Title>
+    <Description>Elements made for buildings, monuments, and architectural settings.</Description>
+  </Collection>
+  <Collection id="COL016">
+    <Title>Coins, Medals and Seals</Title>
+    <Description>Coins, medals, seals, tokens, and related small official objects.</Description>
+  </Collection>
+  <Collection id="COL017">
+    <Title>Arms and Armor</Title>
+    <Description>Weapons, armor, fittings, and associated martial objects.</Description>
+  </Collection>
+  <Collection id="COL018">
+    <Title>Tools and Implements</Title>
+    <Description>Tools, instruments, implements, and working equipment.</Description>
+  </Collection>
+  <Collection id="COL019">
+    <Title>Domestic and Everyday Life</Title>
+    <Description>Objects associated with household, personal, and everyday activities.</Description>
+  </Collection>
+  <Collection id="COL020">
+    <Title>Masks, Regalia and Performance</Title>
+    <Description>Masks, regalia, musical objects, and performance-related material culture.</Description>
+  </Collection>
+  <Collection id="COL021">
+    <Title>Inscribed and Commemorative Objects</Title>
+    <Description>Objects bearing inscriptions or serving commemorative functions.</Description>
+  </Collection>
+  <Collection id="COL022">
+    <Title>Figurines and Miniatures</Title>
+    <Description>Small-scale figures, models, and miniature objects.</Description>
+  </Collection>
+  <Collection id="COL023">
+    <Title>Decorative Arts</Title>
+    <Description>Decorative objects and design-focused works across cultures and periods.</Description>
+  </Collection>
+  <Collection id="COL024">
+    <Title>Archaeological Objects</Title>
+    <Description>Objects with ancient or archaeological contexts represented in the source catalog.</Description>
+  </Collection>
+  <Collection id="COL025">
+    <Title>Ancient Worlds</Title>
+    <Description>Objects dated through the late antique era across multiple cultural heritages.</Description>
+  </Collection>
+  <Collection id="COL026">
+    <Title>Medieval Worlds</Title>
+    <Description>Objects dated from the early medieval through late medieval eras across cultures.</Description>
+  </Collection>
+  <Collection id="COL027">
+    <Title>Early Modern Worlds</Title>
+    <Description>Objects dated broadly from the sixteenth through eighteenth centuries.</Description>
+  </Collection>
+  <Collection id="COL028">
+    <Title>Modern and Contemporary Objects</Title>
+    <Description>Objects dated from the nineteenth century onward.</Description>
+  </Collection>
+  <Collection id="COL029">
+    <Title>Cross-Cultural Connections</Title>
+    <Description>A comparative selection spanning cultural heritages, materials, functions, and periods.</Description>
+  </Collection>
+  <Collection id="COL030">
+    <Title>Museum Highlights</Title>
+    <Description>A rotating selection of representative objects from across the museum dataset.</Description>
+  </Collection>
+</Collections>

@@ -1,0 +1,9 @@
+Using those 5 .xsd files, can you generate 1000 artifacts, 30 collections, 12 Themes (means cultural heritage), 50 exhibitions and 100 restoration projects, in separate xml files and under a global Museum.xml file?  Please ensure these rules: 
+
+1.I want a loose many-to-many Theme↔Collection relationships which means a collection shall not be strictly related to a Theme.
+2.Do not arbitrarily build artifacts but reproduce physically existing artifacts to ensure consistency among their properties: for instance the cultural heritage , the provenance and the historical period should be coherent.
+3.The artifacts generated within an exhibition have to be related to the exhibition's "Theme".
+4.The artifacts generated within a restoration project must have in common the "Expertise/Domain" of the "Responsible". For example if "Domain" = Material, then all the restored artifacts need to have the same material as a property!
+5.The "Responsible" "Expertise" needs to be derived from his domain of expertise. For example if "Domain" = 'Material' then "Expertise" should be 'Marble Expert' and follow the same for other domains.
+6.If the artifact is part of a restoration project, then restoration history attribute is "true". Set an arbitrary record number of past restorations and decribe the scope of the restoration project which targets this artifact.
+7.Else, the artifact is not part of any restoration project, thus ignore the scope description property and set an arbitrary record number of past restorations (could be zero).

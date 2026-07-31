@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name='Restoration'>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Project" type='ProjectType' minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="LoanAmountType">
+		<xs:restriction base="xs:positiveInteger">
+			<xs:minInclusive value="5000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="ProjectType">
+		<xs:sequence>
+			<xs:element name="Loan">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="LoanAmountType">
+							<xs:attribute name="currency" type="xs:string" use="required" fixed="EUR"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Artifacts">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Artifact" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:attribute name="ref" type="xs:IDREF" use="required"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="Responsible">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name='FullName' type='xs:string'/>
+						<xs:element name='Domain'>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:enumeration value="Material"/>
+									<xs:enumeration value="CulturalHeritage"/>
+									<xs:enumeration value="Provenance"/>
+									<xs:enumeration value="Collection"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name='Expertise' type='xs:string'/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:ID" use="required"/>
+	</xs:complexType>
+</xs:schema>
