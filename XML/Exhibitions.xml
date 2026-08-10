@@ -6,6 +6,7 @@
       <OpeningDate>2026-01-15</OpeningDate>
       <ClosingDate>2026-04-15</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="26th century BC" to="4th century BC"/>
     <Artifacts>
       <Artifact ref="A0014"/>
       <Artifact ref="A0015"/>
@@ -19,6 +20,11 @@
       <Artifact ref="A0023"/>
       <Artifact ref="A0024"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Hannah Steiner</Artist>
+      <Artist role="Education Coordinator">Kwame Asante</Artist>
+      <Artist role="Audiovisual Producer">Tomas Ibarra</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">87</Adult>
       <UnderAge unit="Visitors/Day">28</UnderAge>
@@ -30,6 +36,7 @@
       <OpeningDate>2026-02-05</OpeningDate>
       <ClosingDate>2026-05-07</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="7th century BC" to="1st century BC"/>
     <Artifacts>
       <Artifact ref="A0111"/>
       <Artifact ref="A0112"/>
@@ -44,6 +51,12 @@
       <Artifact ref="A0121"/>
       <Artifact ref="A0122"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Anders Holm</Artist>
+      <Artist role="Scenographer">Ethan O'Brien</Artist>
+      <Artist role="Registrar">Camille Rousseau</Artist>
+      <Artist role="Conservator">Zainab Toure</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">94</Adult>
       <UnderAge unit="Visitors/Day">31</UnderAge>
@@ -55,6 +68,7 @@
       <OpeningDate>2026-02-26</OpeningDate>
       <ClosingDate>2026-05-29</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="4th century AD" to="12th century AD"/>
     <Artifacts>
       <Artifact ref="A0208"/>
       <Artifact ref="A0209"/>
@@ -70,6 +84,11 @@
       <Artifact ref="A0219"/>
       <Artifact ref="A0220"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Rohan Kapoor</Artist>
+      <Artist role="Education Coordinator">Marta Sokolova</Artist>
+      <Artist role="Sound and Light Engineer">Farid Benali</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">101</Adult>
       <UnderAge unit="Visitors/Day">34</UnderAge>
@@ -81,6 +100,7 @@
       <OpeningDate>2026-03-19</OpeningDate>
       <ClosingDate>2026-06-20</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="12th century AD" to="15th century AD"/>
     <Artifacts>
       <Artifact ref="A0305"/>
       <Artifact ref="A0306"/>
@@ -97,6 +117,11 @@
       <Artifact ref="A0317"/>
       <Artifact ref="A0318"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Miguel Santos</Artist>
+      <Artist role="Graphic Designer">Kwame Asante</Artist>
+      <Artist role="Exhibition Architect">Hannah Steiner</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">108</Adult>
       <UnderAge unit="Visitors/Day">37</UnderAge>
@@ -108,6 +133,7 @@
       <OpeningDate>2026-04-09</OpeningDate>
       <ClosingDate>2026-07-12</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="15th century AD" to="16th century AD"/>
     <Artifacts>
       <Artifact ref="A0402"/>
       <Artifact ref="A0403"/>
@@ -125,6 +151,10 @@
       <Artifact ref="A0415"/>
       <Artifact ref="A0416"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Rohan Kapoor</Artist>
+      <Artist role="Sound and Light Engineer">Farid Benali</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">115</Adult>
       <UnderAge unit="Visitors/Day">40</UnderAge>
@@ -136,6 +166,7 @@
       <OpeningDate>2026-04-30</OpeningDate>
       <ClosingDate>2026-08-03</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="11th century AD" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0498"/>
       <Artifact ref="A0499"/>
@@ -154,6 +185,12 @@
       <Artifact ref="A0429"/>
       <Artifact ref="A0430"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Aisha Bello</Artist>
+      <Artist role="Audiovisual Producer">Ayaka Nishimura</Artist>
+      <Artist role="Lighting Designer">Chiara Bellini</Artist>
+      <Artist role="Education Coordinator">Youssef Mansour</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">122</Adult>
       <UnderAge unit="Visitors/Day">43</UnderAge>
@@ -165,6 +202,7 @@
       <OpeningDate>2026-05-21</OpeningDate>
       <ClosingDate>2026-08-25</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="17th century AD" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0511"/>
       <Artifact ref="A0512"/>
@@ -184,6 +222,10 @@
       <Artifact ref="A0526"/>
       <Artifact ref="A0527"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Viktor Novak</Artist>
+      <Artist role="Scenographer">Isabelle Moreau</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">129</Adult>
       <UnderAge unit="Visitors/Day">46</UnderAge>
@@ -195,6 +237,7 @@
       <OpeningDate>2026-06-11</OpeningDate>
       <ClosingDate>2026-09-16</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="5th century AD" to="20th century AD"/>
     <Artifacts>
       <Artifact ref="A0607"/>
       <Artifact ref="A0608"/>
@@ -215,6 +258,11 @@
       <Artifact ref="A0623"/>
       <Artifact ref="A0624"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Jae Won Park</Artist>
+      <Artist role="Conservator">Ingrid Lindqvist</Artist>
+      <Artist role="Graphic Designer">Zainab Toure</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">136</Adult>
       <UnderAge unit="Visitors/Day">49</UnderAge>
@@ -226,6 +274,7 @@
       <OpeningDate>2026-07-02</OpeningDate>
       <ClosingDate>2026-10-08</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="9th century AD" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0703"/>
       <Artifact ref="A0704"/>
@@ -247,6 +296,10 @@
       <Artifact ref="A0720"/>
       <Artifact ref="A0721"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Lena Kowalski</Artist>
+      <Artist role="Sound and Light Engineer">Kwame Asante</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">143</Adult>
       <UnderAge unit="Visitors/Day">52</UnderAge>
@@ -258,6 +311,7 @@
       <OpeningDate>2026-07-23</OpeningDate>
       <ClosingDate>2026-10-30</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="17th century AD" to="20th century AD"/>
     <Artifacts>
       <Artifact ref="A0799"/>
       <Artifact ref="A0800"/>
@@ -280,6 +334,11 @@
       <Artifact ref="A0817"/>
       <Artifact ref="A0818"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Hannah Steiner</Artist>
+      <Artist role="Sound and Light Engineer">Youssef Mansour</Artist>
+      <Artist role="Education Coordinator">Freya Andersen</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">150</Adult>
       <UnderAge unit="Visitors/Day">55</UnderAge>
@@ -291,6 +350,7 @@
       <OpeningDate>2026-08-13</OpeningDate>
       <ClosingDate>2026-11-21</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="20th century AD" to="21st century AD"/>
     <Artifacts>
       <Artifact ref="A0895"/>
       <Artifact ref="A0896"/>
@@ -303,6 +363,10 @@
       <Artifact ref="A0903"/>
       <Artifact ref="A0904"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Lena Kowalski</Artist>
+      <Artist role="Sound and Light Engineer">Zainab Toure</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">157</Adult>
       <UnderAge unit="Visitors/Day">58</UnderAge>
@@ -314,6 +378,7 @@
       <OpeningDate>2026-09-03</OpeningDate>
       <ClosingDate>2026-12-13</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="5th century BC" to="15th century AD"/>
     <Artifacts>
       <Artifact ref="A0991"/>
       <Artifact ref="A0992"/>
@@ -327,6 +392,11 @@
       <Artifact ref="A1000"/>
       <Artifact ref="A0918"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Viktor Novak</Artist>
+      <Artist role="Registrar">Naoko Yamada</Artist>
+      <Artist role="Conservator">Ethan O'Brien</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">164</Adult>
       <UnderAge unit="Visitors/Day">61</UnderAge>
@@ -338,6 +408,7 @@
       <OpeningDate>2026-09-24</OpeningDate>
       <ClosingDate>2027-01-04</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="20th century BC" to="1st century BC"/>
     <Artifacts>
       <Artifact ref="A0002"/>
       <Artifact ref="A0003"/>
@@ -352,6 +423,12 @@
       <Artifact ref="A0012"/>
       <Artifact ref="A0013"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Anders Holm</Artist>
+      <Artist role="Audiovisual Producer">Aisha Bello</Artist>
+      <Artist role="Conservator">Marta Sokolova</Artist>
+      <Artist role="Registrar">Viktor Novak</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">171</Adult>
       <UnderAge unit="Visitors/Day">64</UnderAge>
@@ -363,6 +440,7 @@
       <OpeningDate>2026-10-15</OpeningDate>
       <ClosingDate>2027-01-26</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="25th century BC" to="2nd century BC"/>
     <Artifacts>
       <Artifact ref="A0099"/>
       <Artifact ref="A0100"/>
@@ -378,6 +456,10 @@
       <Artifact ref="A0110"/>
       <Artifact ref="A0111"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Ayaka Nishimura</Artist>
+      <Artist role="Exhibition Architect">Ingrid Lindqvist</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">178</Adult>
       <UnderAge unit="Visitors/Day">67</UnderAge>
@@ -389,6 +471,7 @@
       <OpeningDate>2026-11-05</OpeningDate>
       <ClosingDate>2027-02-17</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="4th century AD" to="11th century AD"/>
     <Artifacts>
       <Artifact ref="A0196"/>
       <Artifact ref="A0197"/>
@@ -405,6 +488,11 @@
       <Artifact ref="A0208"/>
       <Artifact ref="A0209"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Naoko Yamada</Artist>
+      <Artist role="Exhibition Architect">Hannah Steiner</Artist>
+      <Artist role="Registrar">Viktor Novak</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">185</Adult>
       <UnderAge unit="Visitors/Day">70</UnderAge>
@@ -416,6 +504,7 @@
       <OpeningDate>2026-11-26</OpeningDate>
       <ClosingDate>2027-03-11</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="13th century AD" to="15th century AD"/>
     <Artifacts>
       <Artifact ref="A0293"/>
       <Artifact ref="A0294"/>
@@ -433,6 +522,10 @@
       <Artifact ref="A0306"/>
       <Artifact ref="A0307"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Ayaka Nishimura</Artist>
+      <Artist role="Exhibition Architect">Tomas Ibarra</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">192</Adult>
       <UnderAge unit="Visitors/Day">73</UnderAge>
@@ -444,6 +537,7 @@
       <OpeningDate>2026-12-17</OpeningDate>
       <ClosingDate>2027-04-02</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="15th century AD" to="16th century AD"/>
     <Artifacts>
       <Artifact ref="A0392"/>
       <Artifact ref="A0393"/>
@@ -462,6 +556,10 @@
       <Artifact ref="A0406"/>
       <Artifact ref="A0407"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Jae Won Park</Artist>
+      <Artist role="Audiovisual Producer">Isabelle Moreau</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">199</Adult>
       <UnderAge unit="Visitors/Day">76</UnderAge>
@@ -473,6 +571,7 @@
       <OpeningDate>2027-01-07</OpeningDate>
       <ClosingDate>2027-04-24</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="11th century AD" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0488"/>
       <Artifact ref="A0489"/>
@@ -492,6 +591,10 @@
       <Artifact ref="A0420"/>
       <Artifact ref="A0421"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Rohan Kapoor</Artist>
+      <Artist role="Lighting Designer">Lena Kowalski</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">206</Adult>
       <UnderAge unit="Visitors/Day">79</UnderAge>
@@ -503,6 +606,7 @@
       <OpeningDate>2027-01-28</OpeningDate>
       <ClosingDate>2027-05-16</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="11th century AD" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0584"/>
       <Artifact ref="A0585"/>
@@ -523,6 +627,12 @@
       <Artifact ref="A0517"/>
       <Artifact ref="A0518"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Jae Won Park</Artist>
+      <Artist role="Scenographer">Youssef Mansour</Artist>
+      <Artist role="Exhibition Architect">Hannah Steiner</Artist>
+      <Artist role="Registrar">Lena Kowalski</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">213</Adult>
       <UnderAge unit="Visitors/Day">82</UnderAge>
@@ -534,6 +644,7 @@
       <OpeningDate>2027-02-18</OpeningDate>
       <ClosingDate>2027-06-07</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="5th century AD" to="20th century AD"/>
     <Artifacts>
       <Artifact ref="A0597"/>
       <Artifact ref="A0598"/>
@@ -555,6 +666,12 @@
       <Artifact ref="A0614"/>
       <Artifact ref="A0615"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Ethan O'Brien</Artist>
+      <Artist role="Audiovisual Producer">Ayaka Nishimura</Artist>
+      <Artist role="Education Coordinator">Diego Herrera</Artist>
+      <Artist role="Conservator">Viktor Novak</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">220</Adult>
       <UnderAge unit="Visitors/Day">85</UnderAge>
@@ -566,6 +683,7 @@
       <OpeningDate>2027-03-11</OpeningDate>
       <ClosingDate>2027-06-29</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="9th century AD" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0693"/>
       <Artifact ref="A0694"/>
@@ -588,6 +706,12 @@
       <Artifact ref="A0711"/>
       <Artifact ref="A0712"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Freya Andersen</Artist>
+      <Artist role="Audiovisual Producer">Zainab Toure</Artist>
+      <Artist role="Exhibition Architect">Anders Holm</Artist>
+      <Artist role="Registrar">Lena Kowalski</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">227</Adult>
       <UnderAge unit="Visitors/Day">88</UnderAge>
@@ -599,6 +723,7 @@
       <OpeningDate>2027-04-01</OpeningDate>
       <ClosingDate>2027-07-21</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="18th century AD" to="20th century AD"/>
     <Artifacts>
       <Artifact ref="A0789"/>
       <Artifact ref="A0790"/>
@@ -611,6 +736,10 @@
       <Artifact ref="A0797"/>
       <Artifact ref="A0798"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Pierre Laurent</Artist>
+      <Artist role="Conservator">Ayaka Nishimura</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">234</Adult>
       <UnderAge unit="Visitors/Day">91</UnderAge>
@@ -622,6 +751,7 @@
       <OpeningDate>2027-04-22</OpeningDate>
       <ClosingDate>2027-08-12</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="19th century AD" to="21st century AD"/>
     <Artifacts>
       <Artifact ref="A0885"/>
       <Artifact ref="A0886"/>
@@ -635,6 +765,12 @@
       <Artifact ref="A0894"/>
       <Artifact ref="A0895"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Pierre Laurent</Artist>
+      <Artist role="Sound and Light Engineer">Rohan Kapoor</Artist>
+      <Artist role="Audiovisual Producer">Rafael Nogueira</Artist>
+      <Artist role="Conservator">Ingrid Lindqvist</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">241</Adult>
       <UnderAge unit="Visitors/Day">94</UnderAge>
@@ -646,6 +782,7 @@
       <OpeningDate>2027-05-13</OpeningDate>
       <ClosingDate>2027-09-03</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="4th century BC" to="12th century AD"/>
     <Artifacts>
       <Artifact ref="A0981"/>
       <Artifact ref="A0982"/>
@@ -660,6 +797,12 @@
       <Artifact ref="A0991"/>
       <Artifact ref="A0992"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Viktor Novak</Artist>
+      <Artist role="Conservator">Freya Andersen</Artist>
+      <Artist role="Audiovisual Producer">Camille Rousseau</Artist>
+      <Artist role="Graphic Designer">Naoko Yamada</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">248</Adult>
       <UnderAge unit="Visitors/Day">97</UnderAge>
@@ -671,6 +814,7 @@
       <OpeningDate>2027-06-03</OpeningDate>
       <ClosingDate>2027-09-25</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="25th century BC" to="1st century AD"/>
     <Artifacts>
       <Artifact ref="A0074"/>
       <Artifact ref="A0075"/>
@@ -686,6 +830,10 @@
       <Artifact ref="A0001"/>
       <Artifact ref="A0002"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Zainab Toure</Artist>
+      <Artist role="Education Coordinator">Chiara Bellini</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">255</Adult>
       <UnderAge unit="Visitors/Day">100</UnderAge>
@@ -697,6 +845,7 @@
       <OpeningDate>2027-06-24</OpeningDate>
       <ClosingDate>2027-10-17</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="6th century BC" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0087"/>
       <Artifact ref="A0088"/>
@@ -713,6 +862,12 @@
       <Artifact ref="A0099"/>
       <Artifact ref="A0100"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Aisha Bello</Artist>
+      <Artist role="Education Coordinator">Anders Holm</Artist>
+      <Artist role="Conservator">Ingrid Lindqvist</Artist>
+      <Artist role="Lighting Designer">Rohan Kapoor</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">262</Adult>
       <UnderAge unit="Visitors/Day">103</UnderAge>
@@ -724,6 +879,7 @@
       <OpeningDate>2027-07-15</OpeningDate>
       <ClosingDate>2027-11-08</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="4th century AD" to="11th century AD"/>
     <Artifacts>
       <Artifact ref="A0184"/>
       <Artifact ref="A0185"/>
@@ -741,6 +897,10 @@
       <Artifact ref="A0197"/>
       <Artifact ref="A0198"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Marta Sokolova</Artist>
+      <Artist role="Scenographer">Kwame Asante</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">269</Adult>
       <UnderAge unit="Visitors/Day">106</UnderAge>
@@ -752,6 +912,7 @@
       <OpeningDate>2027-08-05</OpeningDate>
       <ClosingDate>2027-11-30</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="13th century AD" to="15th century AD"/>
     <Artifacts>
       <Artifact ref="A0281"/>
       <Artifact ref="A0282"/>
@@ -770,6 +931,12 @@
       <Artifact ref="A0295"/>
       <Artifact ref="A0296"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Hannah Steiner</Artist>
+      <Artist role="Education Coordinator">Farid Benali</Artist>
+      <Artist role="Scenographer">Sanne de Vries</Artist>
+      <Artist role="Conservator">Kwame Asante</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">276</Adult>
       <UnderAge unit="Visitors/Day">109</UnderAge>
@@ -781,6 +948,7 @@
       <OpeningDate>2027-08-26</OpeningDate>
       <ClosingDate>2027-12-22</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="15th century AD" to="18th century AD"/>
     <Artifacts>
       <Artifact ref="A0382"/>
       <Artifact ref="A0383"/>
@@ -800,6 +968,11 @@
       <Artifact ref="A0397"/>
       <Artifact ref="A0398"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Diego Herrera</Artist>
+      <Artist role="Scenographer">Kwame Asante</Artist>
+      <Artist role="Exhibition Architect">Farid Benali</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">283</Adult>
       <UnderAge unit="Visitors/Day">112</UnderAge>
@@ -811,6 +984,7 @@
       <OpeningDate>2027-09-16</OpeningDate>
       <ClosingDate>2028-01-13</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="9th century AD" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0478"/>
       <Artifact ref="A0479"/>
@@ -831,6 +1005,12 @@
       <Artifact ref="A0494"/>
       <Artifact ref="A0495"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Ayaka Nishimura</Artist>
+      <Artist role="Audiovisual Producer">Lena Kowalski</Artist>
+      <Artist role="Education Coordinator">Tomas Ibarra</Artist>
+      <Artist role="Registrar">Diego Herrera</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">290</Adult>
       <UnderAge unit="Visitors/Day">115</UnderAge>
@@ -842,6 +1022,7 @@
       <OpeningDate>2027-10-07</OpeningDate>
       <ClosingDate>2028-01-04</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="10th century BC" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0574"/>
       <Artifact ref="A0575"/>
@@ -863,6 +1044,12 @@
       <Artifact ref="A0508"/>
       <Artifact ref="A0509"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Jae Won Park</Artist>
+      <Artist role="Graphic Designer">Freya Andersen</Artist>
+      <Artist role="Audiovisual Producer">Marta Sokolova</Artist>
+      <Artist role="Education Coordinator">Youssef Mansour</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">297</Adult>
       <UnderAge unit="Visitors/Day">118</UnderAge>
@@ -874,6 +1061,7 @@
       <OpeningDate>2027-10-28</OpeningDate>
       <ClosingDate>2028-01-26</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="8th century AD" to="20th century AD"/>
     <Artifacts>
       <Artifact ref="A0587"/>
       <Artifact ref="A0588"/>
@@ -896,6 +1084,11 @@
       <Artifact ref="A0605"/>
       <Artifact ref="A0606"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Marta Sokolova</Artist>
+      <Artist role="Exhibition Architect">Ingrid Lindqvist</Artist>
+      <Artist role="Scenographer">Rohan Kapoor</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">304</Adult>
       <UnderAge unit="Visitors/Day">121</UnderAge>
@@ -907,6 +1100,7 @@
       <OpeningDate>2027-11-18</OpeningDate>
       <ClosingDate>2028-02-17</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="7th century AD" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0683"/>
       <Artifact ref="A0684"/>
@@ -919,6 +1113,11 @@
       <Artifact ref="A0691"/>
       <Artifact ref="A0692"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Zainab Toure</Artist>
+      <Artist role="Conservator">Kwame Asante</Artist>
+      <Artist role="Graphic Designer">Sanne de Vries</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">311</Adult>
       <UnderAge unit="Visitors/Day">124</UnderAge>
@@ -930,6 +1129,7 @@
       <OpeningDate>2027-12-09</OpeningDate>
       <ClosingDate>2028-03-10</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="17th century AD" to="20th century AD"/>
     <Artifacts>
       <Artifact ref="A0779"/>
       <Artifact ref="A0780"/>
@@ -943,6 +1143,12 @@
       <Artifact ref="A0788"/>
       <Artifact ref="A0789"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Miguel Santos</Artist>
+      <Artist role="Scenographer">Chiara Bellini</Artist>
+      <Artist role="Conservator">Marta Sokolova</Artist>
+      <Artist role="Graphic Designer">Hannah Steiner</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">318</Adult>
       <UnderAge unit="Visitors/Day">127</UnderAge>
@@ -954,6 +1160,7 @@
       <OpeningDate>2027-12-30</OpeningDate>
       <ClosingDate>2028-04-01</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="19th century AD" to="20th century AD"/>
     <Artifacts>
       <Artifact ref="A0875"/>
       <Artifact ref="A0876"/>
@@ -968,6 +1175,10 @@
       <Artifact ref="A0885"/>
       <Artifact ref="A0886"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Lena Kowalski</Artist>
+      <Artist role="Audiovisual Producer">Sanne de Vries</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">325</Adult>
       <UnderAge unit="Visitors/Day">130</UnderAge>
@@ -979,6 +1190,7 @@
       <OpeningDate>2028-01-20</OpeningDate>
       <ClosingDate>2028-04-23</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="1st century AD" to="14th century AD"/>
     <Artifacts>
       <Artifact ref="A0971"/>
       <Artifact ref="A0972"/>
@@ -994,6 +1206,11 @@
       <Artifact ref="A0982"/>
       <Artifact ref="A0983"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Freya Andersen</Artist>
+      <Artist role="Lighting Designer">Rohan Kapoor</Artist>
+      <Artist role="Education Coordinator">Sanne de Vries</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">332</Adult>
       <UnderAge unit="Visitors/Day">133</UnderAge>
@@ -1005,6 +1222,7 @@
       <OpeningDate>2028-02-10</OpeningDate>
       <ClosingDate>2028-05-15</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="24th century BC" to="2nd century AD"/>
     <Artifacts>
       <Artifact ref="A0062"/>
       <Artifact ref="A0063"/>
@@ -1021,6 +1239,11 @@
       <Artifact ref="A0074"/>
       <Artifact ref="A0075"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Farid Benali</Artist>
+      <Artist role="Exhibition Architect">Kwame Asante</Artist>
+      <Artist role="Registrar">Isabelle Moreau</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">339</Adult>
       <UnderAge unit="Visitors/Day">136</UnderAge>
@@ -1032,6 +1255,7 @@
       <OpeningDate>2028-03-02</OpeningDate>
       <ClosingDate>2028-06-06</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="6th century BC" to="3rd century BC"/>
     <Artifacts>
       <Artifact ref="A0159"/>
       <Artifact ref="A0160"/>
@@ -1049,6 +1273,11 @@
       <Artifact ref="A0088"/>
       <Artifact ref="A0089"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Anders Holm</Artist>
+      <Artist role="Conservator">Ethan O'Brien</Artist>
+      <Artist role="Education Coordinator">Rohan Kapoor</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">346</Adult>
       <UnderAge unit="Visitors/Day">139</UnderAge>
@@ -1060,6 +1289,7 @@
       <OpeningDate>2028-03-23</OpeningDate>
       <ClosingDate>2028-06-28</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="3rd century AD" to="5th century AD"/>
     <Artifacts>
       <Artifact ref="A0172"/>
       <Artifact ref="A0173"/>
@@ -1078,6 +1308,11 @@
       <Artifact ref="A0186"/>
       <Artifact ref="A0187"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Ethan O'Brien</Artist>
+      <Artist role="Lighting Designer">Isabelle Moreau</Artist>
+      <Artist role="Conservator">Diego Herrera</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">353</Adult>
       <UnderAge unit="Visitors/Day">142</UnderAge>
@@ -1089,6 +1324,7 @@
       <OpeningDate>2028-04-13</OpeningDate>
       <ClosingDate>2028-07-20</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="13th century AD" to="15th century AD"/>
     <Artifacts>
       <Artifact ref="A0269"/>
       <Artifact ref="A0270"/>
@@ -1108,6 +1344,12 @@
       <Artifact ref="A0284"/>
       <Artifact ref="A0285"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Lena Kowalski</Artist>
+      <Artist role="Registrar">Marta Sokolova</Artist>
+      <Artist role="Exhibition Architect">Diego Herrera</Artist>
+      <Artist role="Sound and Light Engineer">Aisha Bello</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">360</Adult>
       <UnderAge unit="Visitors/Day">145</UnderAge>
@@ -1119,6 +1361,7 @@
       <OpeningDate>2028-05-04</OpeningDate>
       <ClosingDate>2028-08-11</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="15th century AD" to="16th century AD"/>
     <Artifacts>
       <Artifact ref="A0372"/>
       <Artifact ref="A0373"/>
@@ -1139,6 +1382,11 @@
       <Artifact ref="A0388"/>
       <Artifact ref="A0389"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Rohan Kapoor</Artist>
+      <Artist role="Audiovisual Producer">Marta Sokolova</Artist>
+      <Artist role="Education Coordinator">Pierre Laurent</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">367</Adult>
       <UnderAge unit="Visitors/Day">148</UnderAge>
@@ -1150,6 +1398,7 @@
       <OpeningDate>2028-05-25</OpeningDate>
       <ClosingDate>2028-09-02</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="9th century AD" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0468"/>
       <Artifact ref="A0469"/>
@@ -1171,6 +1420,11 @@
       <Artifact ref="A0485"/>
       <Artifact ref="A0486"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Pierre Laurent</Artist>
+      <Artist role="Registrar">Isabelle Moreau</Artist>
+      <Artist role="Conservator">Jae Won Park</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">374</Adult>
       <UnderAge unit="Visitors/Day">151</UnderAge>
@@ -1182,6 +1436,7 @@
       <OpeningDate>2028-06-15</OpeningDate>
       <ClosingDate>2028-09-24</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="10th century BC" to="18th century AD"/>
     <Artifacts>
       <Artifact ref="A0564"/>
       <Artifact ref="A0565"/>
@@ -1204,6 +1459,10 @@
       <Artifact ref="A0582"/>
       <Artifact ref="A0583"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Kwame Asante</Artist>
+      <Artist role="Audiovisual Producer">Hannah Steiner</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">381</Adult>
       <UnderAge unit="Visitors/Day">154</UnderAge>
@@ -1215,6 +1474,7 @@
       <OpeningDate>2028-07-06</OpeningDate>
       <ClosingDate>2028-10-16</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="15th century BC" to="20th century AD"/>
     <Artifacts>
       <Artifact ref="A0660"/>
       <Artifact ref="A0661"/>
@@ -1227,6 +1487,10 @@
       <Artifact ref="A0668"/>
       <Artifact ref="A0586"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Rafael Nogueira</Artist>
+      <Artist role="Registrar">Viktor Novak</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">388</Adult>
       <UnderAge unit="Visitors/Day">157</UnderAge>
@@ -1238,6 +1502,7 @@
       <OpeningDate>2028-07-27</OpeningDate>
       <ClosingDate>2028-11-07</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="7th century AD" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0673"/>
       <Artifact ref="A0674"/>
@@ -1251,6 +1516,10 @@
       <Artifact ref="A0682"/>
       <Artifact ref="A0683"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Aisha Bello</Artist>
+      <Artist role="Education Coordinator">Camille Rousseau</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">395</Adult>
       <UnderAge unit="Visitors/Day">160</UnderAge>
@@ -1262,6 +1531,7 @@
       <OpeningDate>2028-08-17</OpeningDate>
       <ClosingDate>2028-11-29</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="17th century AD" to="20th century AD"/>
     <Artifacts>
       <Artifact ref="A0769"/>
       <Artifact ref="A0770"/>
@@ -1276,6 +1546,11 @@
       <Artifact ref="A0779"/>
       <Artifact ref="A0780"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Ethan O'Brien</Artist>
+      <Artist role="Sound and Light Engineer">Diego Herrera</Artist>
+      <Artist role="Lighting Designer">Youssef Mansour</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">402</Adult>
       <UnderAge unit="Visitors/Day">163</UnderAge>
@@ -1287,6 +1562,7 @@
       <OpeningDate>2028-09-07</OpeningDate>
       <ClosingDate>2028-12-21</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="12th century AD" to="21st century AD"/>
     <Artifacts>
       <Artifact ref="A0865"/>
       <Artifact ref="A0866"/>
@@ -1302,6 +1578,11 @@
       <Artifact ref="A0876"/>
       <Artifact ref="A0877"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Chiara Bellini</Artist>
+      <Artist role="Conservator">Freya Andersen</Artist>
+      <Artist role="Registrar">Miguel Santos</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">409</Adult>
       <UnderAge unit="Visitors/Day">166</UnderAge>
@@ -1313,6 +1594,7 @@
       <OpeningDate>2028-09-28</OpeningDate>
       <ClosingDate>2029-01-12</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="5th century BC" to="14th century AD"/>
     <Artifacts>
       <Artifact ref="A0961"/>
       <Artifact ref="A0962"/>
@@ -1329,6 +1611,10 @@
       <Artifact ref="A0973"/>
       <Artifact ref="A0974"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Jae Won Park</Artist>
+      <Artist role="Registrar">Marta Sokolova</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">416</Adult>
       <UnderAge unit="Visitors/Day">169</UnderAge>
@@ -1340,6 +1626,7 @@
       <OpeningDate>2028-10-19</OpeningDate>
       <ClosingDate>2029-02-03</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="24th century BC" to="19th century AD"/>
     <Artifacts>
       <Artifact ref="A0050"/>
       <Artifact ref="A0051"/>
@@ -1357,6 +1644,10 @@
       <Artifact ref="A0063"/>
       <Artifact ref="A0064"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Viktor Novak</Artist>
+      <Artist role="Graphic Designer">Camille Rousseau</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">423</Adult>
       <UnderAge unit="Visitors/Day">172</UnderAge>
@@ -1368,6 +1659,7 @@
       <OpeningDate>2028-11-09</OpeningDate>
       <ClosingDate>2029-02-25</ClosingDate>
     </Schedule>
+    <HistoricalPeriod from="7th century BC" to="3rd century BC"/>
     <Artifacts>
       <Artifact ref="A0147"/>
       <Artifact ref="A0148"/>
@@ -1386,6 +1678,11 @@
       <Artifact ref="A0161"/>
       <Artifact ref="A0162"/>
     </Artifacts>
+    <Artists>
+      <Artist role="Curator">Zainab Toure</Artist>
+      <Artist role="Exhibition Architect">Miguel Santos</Artist>
+      <Artist role="Education Coordinator">Anders Holm</Artist>
+    </Artists>
     <VisitorCount>
       <Adult unit="Visitors/Day">430</Adult>
       <UnderAge unit="Visitors/Day">175</UnderAge>
