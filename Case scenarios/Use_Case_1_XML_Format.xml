@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<UseCase number="1" type="XML">
+	<Question>Which five collections have the greatest current restoration workload?</Question>
+	<Metric>Number of artifacts in each collection whose RestorationHistory/@under_restoration attribute is true.</Metric>
+	<TieBreakRule>Total number of artifacts in the collection descending, then collection ID ascending.</TieBreakRule>
+	<TopCollections limit="5" evaluatedCollectionCount="30">
+		<Collection rank="1" id="COL024" title="Archaeological Objects" currentRestorationArtifactCount="247" totalArtifactCount="603" associatedRestorationProjectCount="85" associatedRestorationLoanEUR="13919750">
+			<Description>Objects with ancient or archaeological contexts represented in the source catalog.</Description>
+			<WorkloadDefinition>An artifact contributes once to this collection's workload when it belongs to the collection and has under_restoration='true'. Because collection membership is many-to-many, one artifact may contribute to several collections.</WorkloadDefinition>
+		</Collection>
+		<Collection rank="2" id="COL025" title="Ancient Worlds" currentRestorationArtifactCount="157" totalArtifactCount="283" associatedRestorationProjectCount="56" associatedRestorationLoanEUR="8794750">
+			<Description>Objects dated through the late antique era across multiple cultural heritages.</Description>
+			<WorkloadDefinition>An artifact contributes once to this collection's workload when it belongs to the collection and has under_restoration='true'. Because collection membership is many-to-many, one artifact may contribute to several collections.</WorkloadDefinition>
+		</Collection>
+		<Collection rank="3" id="COL007" title="Ceramics and Terracotta" currentRestorationArtifactCount="96" totalArtifactCount="328" associatedRestorationProjectCount="37" associatedRestorationLoanEUR="6810000">
+			<Description>Objects made from ceramic, clay, terracotta, porcelain, earthenware, or stoneware.</Description>
+			<WorkloadDefinition>An artifact contributes once to this collection's workload when it belongs to the collection and has under_restoration='true'. Because collection membership is many-to-many, one artifact may contribute to several collections.</WorkloadDefinition>
+		</Collection>
+		<Collection rank="4" id="COL010" title="Sculpture and Relief" currentRestorationArtifactCount="96" totalArtifactCount="292" associatedRestorationProjectCount="45" associatedRestorationLoanEUR="6955000">
+			<Description>Freestanding sculpture, reliefs, plaques, and related three-dimensional works.</Description>
+			<WorkloadDefinition>An artifact contributes once to this collection's workload when it belongs to the collection and has under_restoration='true'. Because collection membership is many-to-many, one artifact may contribute to several collections.</WorkloadDefinition>
+		</Collection>
+		<Collection rank="5" id="COL011" title="Vessels and Containers" currentRestorationArtifactCount="95" totalArtifactCount="301" associatedRestorationProjectCount="44" associatedRestorationLoanEUR="7733000">
+			<Description>Vessels, jars, bowls, cups, bottles, boxes, and other containers.</Description>
+			<WorkloadDefinition>An artifact contributes once to this collection's workload when it belongs to the collection and has under_restoration='true'. Because collection membership is many-to-many, one artifact may contribute to several collections.</WorkloadDefinition>
+		</Collection>
+	</TopCollections>
+</UseCase>
