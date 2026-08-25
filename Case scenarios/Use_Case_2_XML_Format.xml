@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<UseCase number="2" type="XML">
+	<Question>Which ten artifacts currently planned for restoration, have the greatest aggregate public-exhibition exposure?</Question>
+	<Metric>Sum of daily adult and under-age visitors across every exhibition containing the artifact; restoration loan breaks ties.</Metric>
+	<TopExposedRestoredArtifacts limit="10" eligibleCandidateCount="206">
+		<Artifact rank="1" id="A0162" title="Coin Depicting a Ship's Prow" themeRef="TH002" themeName="Ancient Greek Cultural Heritage" aggregateVisitorsPerDay="1090" exhibitionCount="2" collectionCount="4" restorationProjectRef="RP057" restorationLoanEUR="181750">
+			<Description>Coin Depicting a Ship's Prow. Creator or culture: Greek. Catalog date: after 307-243 BCE. Catalog medium: Bronze. Place of origin: Greece. Physical catalog record: Art Institute of Chicago object 9863 (https://www.artic.edu/artworks/9863).</Description>
+			<Exhibitions>
+				<Exhibition ref="EX038" themeRef="TH002" adultVisitorsPerDay="346" underAgeVisitorsPerDay="139" totalVisitorsPerDay="485"/>
+				<Exhibition ref="EX050" themeRef="TH002" adultVisitorsPerDay="430" underAgeVisitorsPerDay="175" totalVisitorsPerDay="605"/>
+			</Exhibitions>
+			<RestorationProject ref="RP057" loanEUR="181750"/>
+		</Artifact>
+		<Artifact rank="2" id="A0159" title="Tetradrachm (Coin) Depicting the Hero Herakles with the Features of Alexander the Great" themeRef="TH002" themeName="Ancient Greek Cultural Heritage" aggregateVisitorsPerDay="1090" exhibitionCount="2" collectionCount="5" restorationProjectRef="RP039" restorationLoanEUR="132250">
+			<Description>Tetradrachm (Coin) Depicting the Hero Herakles with the Features of Alexander the Great. Creator or culture: Greek; minted in Sidon, ancient Phoenicia. Catalog date: 336-323 BCE. Catalog medium: Silver. Place of origin: Syria. Physical catalog record: Art Institute of Chicago object 9696 (https://www.artic.edu/artworks/9696).</Description>
+			<Exhibitions>
+				<Exhibition ref="EX038" themeRef="TH002" adultVisitorsPerDay="346" underAgeVisitorsPerDay="139" totalVisitorsPerDay="485"/>
+				<Exhibition ref="EX050" themeRef="TH002" adultVisitorsPerDay="430" underAgeVisitorsPerDay="175" totalVisitorsPerDay="605"/>
+			</Exhibitions>
+			<RestorationProject ref="RP039" loanEUR="132250"/>
+		</Artifact>
+		<Artifact rank="3" id="A0063" title="Amulet of Sekhmet" themeRef="TH001" themeName="Ancient Egyptian Cultural Heritage" aggregateVisitorsPerDay="1070" exhibitionCount="2" collectionCount="4" restorationProjectRef="RP094" restorationLoanEUR="283500">
+			<Description>Amulet of Sekhmet. Creator or culture: Egyptian. Catalog date: Third Intermediate Period (about 1069–664 BCE). Catalog medium: Faience. Place of origin: Egypt. Physical catalog record: Art Institute of Chicago object 135838 (https://www.artic.edu/artworks/135838).</Description>
+			<Exhibitions>
+				<Exhibition ref="EX037" themeRef="TH001" adultVisitorsPerDay="339" underAgeVisitorsPerDay="136" totalVisitorsPerDay="475"/>
+				<Exhibition ref="EX049" themeRef="TH001" adultVisitorsPerDay="423" underAgeVisitorsPerDay="172" totalVisitorsPerDay="595"/>
+			</Exhibitions>
+			<RestorationProject ref="RP094" loanEUR="283500"/>
+		</Artifact>
+		<Artifact rank="4" id="A0064" title="Canopic Jar of Amenhotep" themeRef="TH001" themeName="Ancient Egyptian Cultural Heritage" aggregateVisitorsPerDay="1070" exhibitionCount="2" collectionCount="6" restorationProjectRef="RP094" restorationLoanEUR="283500">
+			<Description>Canopic Jar of Amenhotep. Creator or culture: Egyptian; Tomb A7, Dra Abu el-Naga, Thebes (now Luxor), Egypt. Catalog date: New Kingdom, Dynasty 18, reign of Amenhotep II (about 1427–1400 BCE). Catalog medium: Ceramic and pigment. Place of origin: Egypt. Physical catalog record: Art Institute of Chicago object 120266 (https://www.artic.edu/artworks/120266).</Description>
+			<Exhibitions>
+				<Exhibition ref="EX037" themeRef="TH001" adultVisitorsPerDay="339" underAgeVisitorsPerDay="136" totalVisitorsPerDay="475"/>
+				<Exhibition ref="EX049" themeRef="TH001" adultVisitorsPerDay="423" underAgeVisitorsPerDay="172" totalVisitorsPerDay="595"/>
+			</Exhibitions>
+			<RestorationProject ref="RP094" loanEUR="283500"/>
+		</Artifact>
+		<Artifact rank="5" id="A0062" title="Shabti of Horu" themeRef="TH001" themeName="Ancient Egyptian Cultural Heritage" aggregateVisitorsPerDay="1070" exhibitionCount="2" collectionCount="5" restorationProjectRef="RP080" restorationLoanEUR="245000">
+			<Description>Shabti of Horu. Creator or culture: Egyptian. Catalog date: Late Period, Dynasty 26 (664-525 BCE). Catalog medium: Faience. Place of origin: Egypt. Physical catalog record: Art Institute of Chicago object 120295 (https://www.artic.edu/artworks/120295).</Description>
+			<Exhibitions>
+				<Exhibition ref="EX037" themeRef="TH001" adultVisitorsPerDay="339" underAgeVisitorsPerDay="136" totalVisitorsPerDay="475"/>
+				<Exhibition ref="EX049" themeRef="TH001" adultVisitorsPerDay="423" underAgeVisitorsPerDay="172" totalVisitorsPerDay="595"/>
+			</Exhibitions>
+			<RestorationProject ref="RP080" loanEUR="245000"/>
+		</Artifact>
+		<Artifact rank="6" id="A0481" title="Square Tile" themeRef="TH006" themeName="Islamic Cultural Heritage" aggregateVisitorsPerDay="930" exhibitionCount="2" collectionCount="4" restorationProjectRef="RP095" restorationLoanEUR="286250">
+			<Description>Square Tile. Creator or culture: Morocco. Catalog date: Late 19th century. Catalog medium: Buff pottery with polychrome painting over white glaze. Place of origin: Morocco. Physical catalog record: Art Institute of Chicago object 16674 (https://www.artic.edu/artworks/16674).</Description>
+			<Exhibitions>
+				<Exhibition ref="EX030" themeRef="TH006" adultVisitorsPerDay="290" underAgeVisitorsPerDay="115" totalVisitorsPerDay="405"/>
+				<Exhibition ref="EX042" themeRef="TH006" adultVisitorsPerDay="374" underAgeVisitorsPerDay="151" totalVisitorsPerDay="525"/>
+			</Exhibitions>
+			<RestorationProject ref="RP095" loanEUR="286250"/>
+		</Artifact>
+		<Artifact rank="7" id="A0483" title="Ruler Entertained by Dancers in a Paradise Garden" themeRef="TH006" themeName="Islamic Cultural Heritage" aggregateVisitorsPerDay="930" exhibitionCount="2" collectionCount="3" restorationProjectRef="RP092" restorationLoanEUR="278000">
+			<Description>Ruler Entertained by Dancers in a Paradise Garden. Creator or culture: India
+Uttar Pradesh, Avadh. Catalog date: Late 18th century. Catalog medium: Opaque watercolor and gold on paper. Place of origin: India. Physical catalog record: Art Institute of Chicago object 76890 (https://www.artic.edu/artworks/76890).</Description>
+			<Exhibitions>
+				<Exhibition ref="EX030" themeRef="TH006" adultVisitorsPerDay="290" underAgeVisitorsPerDay="115" totalVisitorsPerDay="405"/>
+				<Exhibition ref="EX042" themeRef="TH006" adultVisitorsPerDay="374" underAgeVisitorsPerDay="151" totalVisitorsPerDay="525"/>
+			</Exhibitions>
+			<RestorationProject ref="RP092" loanEUR="278000"/>
+		</Artifact>
+		<Artifact rank="8" id="A0283" title="Saddle" themeRef="TH004" themeName="Medieval European Cultural Heritage" aggregateVisitorsPerDay="890" exhibitionCount="2" collectionCount="4" restorationProjectRef="RP033" restorationLoanEUR="115750">
+			<Description>Saddle. Creator or culture: Central European, probably Bohemian. Catalog date: 1400-20. Catalog medium: Bone, staghorn, limewood, birchbark, rawhide, leather, and iron. Place of origin: Germany. Physical catalog record: Art Institute of Chicago object 106328 (https://www.artic.edu/artworks/106328).</Description>
+			<Exhibitions>
+				<Exhibition ref="EX028" themeRef="TH004" adultVisitorsPerDay="276" underAgeVisitorsPerDay="109" totalVisitorsPerDay="385"/>
+				<Exhibition ref="EX040" themeRef="TH004" adultVisitorsPerDay="360" underAgeVisitorsPerDay="145" totalVisitorsPerDay="505"/>
+			</Exhibitions>
+			<RestorationProject ref="RP033" loanEUR="115750"/>
+		</Artifact>
+		<Artifact rank="9" id="A0185" title="Goblet" themeRef="TH003" themeName="Roman and Byzantine Cultural Heritage" aggregateVisitorsPerDay="870" exhibitionCount="2" collectionCount="4" restorationProjectRef="RP097" restorationLoanEUR="291750">
+			<Description>Goblet. Creator or culture: Late Roman or early Byzantine; coast of Syria or Palestine. Catalog date: 4th-5th century. Catalog medium: Glass, blown technique. Place of origin: Syria. Physical catalog record: Art Institute of Chicago object 65592 (https://www.artic.edu/artworks/65592).</Description>
+			<Exhibitions>
+				<Exhibition ref="EX027" themeRef="TH003" adultVisitorsPerDay="269" underAgeVisitorsPerDay="106" totalVisitorsPerDay="375"/>
+				<Exhibition ref="EX039" themeRef="TH003" adultVisitorsPerDay="353" underAgeVisitorsPerDay="142" totalVisitorsPerDay="495"/>
+			</Exhibitions>
+			<RestorationProject ref="RP097" loanEUR="291750"/>
+		</Artifact>
+		<Artifact rank="10" id="A0186" title="Bottle" themeRef="TH003" themeName="Roman and Byzantine Cultural Heritage" aggregateVisitorsPerDay="870" exhibitionCount="2" collectionCount="4" restorationProjectRef="RP097" restorationLoanEUR="291750">
+			<Description>Bottle. Creator or culture: Roman or Byzantine; Eastern Mediterranean. Catalog date: 2nd-6th century. Catalog medium: Glass, blown technique. Place of origin: Mediterranean Region. Physical catalog record: Art Institute of Chicago object 61947 (https://www.artic.edu/artworks/61947).</Description>
+			<Exhibitions>
+				<Exhibition ref="EX027" themeRef="TH003" adultVisitorsPerDay="269" underAgeVisitorsPerDay="106" totalVisitorsPerDay="375"/>
+				<Exhibition ref="EX039" themeRef="TH003" adultVisitorsPerDay="353" underAgeVisitorsPerDay="142" totalVisitorsPerDay="495"/>
+			</Exhibitions>
+			<RestorationProject ref="RP097" loanEUR="291750"/>
+		</Artifact>
+	</TopExposedRestoredArtifacts>
+</UseCase>

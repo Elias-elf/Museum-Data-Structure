@@ -22,12 +22,12 @@
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
-			<xs:element name='HistoricalPeriod' type='PeriodRangeType'/>
 			<xs:choice>
 				<xs:element name="Artifacts">
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="Artifact" minOccurs="10" maxOccurs="unbounded">
+								<!--Have at least 10 artifacts in an Exhibition or a collection-->
 								<xs:complexType>
 									<xs:attribute name="ref" type="xs:IDREF" use="required"/>
 								</xs:complexType>
@@ -41,13 +41,6 @@
 					</xs:complexType>
 				</xs:element>
 			</xs:choice>
-			<xs:element name='Artists'>
-				<xs:complexType>
-					<xs:sequence>
-						<xs:element name='Artist' type='ArtistType' minOccurs='1' maxOccurs='unbounded'/>
-					</xs:sequence>
-				</xs:complexType>
-			</xs:element>
 			<xs:element name='VisitorCount'>
 				<xs:complexType>
 					<xs:sequence>
@@ -66,39 +59,4 @@
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
-	<xs:complexType name='ArtistType'>
-		<xs:simpleContent>
-			<xs:extension base="FullNameType">
-				<xs:attribute name="role" type="RoleType" use="required"/>
-			</xs:extension>
-		</xs:simpleContent>
-	</xs:complexType>
-	<xs:simpleType name='FullNameType'>
-		<xs:restriction base="xs:string">
-			<xs:pattern value="\p{Lu}[\p{L}'\-]*( (\p{Lu}[\p{L}'\-]*|de|del|della|di|da|dos|van|von|der|den|le|la|bin|al))+"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:simpleType name='RoleType'>
-		<xs:restriction base="xs:string">
-			<xs:enumeration value="Curator"/>
-			<xs:enumeration value="Exhibition Architect"/>
-			<xs:enumeration value="Scenographer"/>
-			<xs:enumeration value="Sound and Light Engineer"/>
-			<xs:enumeration value="Lighting Designer"/>
-			<xs:enumeration value="Conservator"/>
-			<xs:enumeration value="Graphic Designer"/>
-			<xs:enumeration value="Audiovisual Producer"/>
-			<xs:enumeration value="Education Coordinator"/>
-			<xs:enumeration value="Registrar"/>
-		</xs:restriction>
-	</xs:simpleType>
-	<xs:complexType name='PeriodRangeType'>
-		<xs:attribute name="from" type="CenturyType" use="required"/>
-		<xs:attribute name="to" type="CenturyType" use="required"/>
-	</xs:complexType>
-	<xs:simpleType name='CenturyType'>
-		<xs:restriction base="xs:string">
-			<xs:pattern value="(([0-9]*[02-9])?1st|([0-9]*[02-9])?2nd|([0-9]*[02-9])?3rd|[0-9]*[04-9]th|[0-9]*1[123]th) century (BC|AD)"/>
-		</xs:restriction>
-	</xs:simpleType>
 </xs:schema>
