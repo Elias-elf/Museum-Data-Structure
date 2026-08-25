@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Artifact Restoration Status Schema",
+  "description": "Validation du flux JSON pour les details et statuts de restauration des artefacts",
+  "type": "object",
+  "properties": {
+    "Artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "Description": {
+            "type": "string"
+          },
+          "Materials": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "Cultural_Heritage_Ref": {
+            "type": "string"
+          },
+          "Under_Restoration": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "Description",
+          "Materials",
+          "Cultural_Heritage_Ref",
+          "Under_Restoration"
+        ]
+      }
+    }
+  },
+  "required": [
+    "Artifacts"
+  ]
+}
