@@ -4,36 +4,39 @@ import sys
 def process_xml_pipeline():
     xml_file = 'XML/Artifacts.xml'
     xsd_file = 'XML/schemas/Artifacts.xsd'
-    xsl_file = 'Case scenarios/Artifacts.xsl' 
-    output_file = 'Case scenarios/artifact_details_output.html'
+    xsl_file = 'Case scenarios/Python_artifact_details.xsl' 
 
-    print("Démarrage du traitement XML...")
+    print("Starting XML processing...")
 
     try:
+        # load, parse the XML
         xml_doc = etree.parse(xml_file)
-        print("[-] XML chargé et parsé avec succès.")
+        print("[-] XML successfully loaded and parsed.")
 
+        # load XSD schema, validate
         xml_schema_doc = etree.parse(xsd_file)
         xml_schema = etree.XMLSchema(xml_schema_doc)
-        
+
         if xml_schema.validate(xml_doc):
-            print("[-] Validation XSD réussie.")
+            print("[-] XSD validation successful.")
         else:
-            print("[!] Échec de la validation XSD :")
+            print("[!] XSD validation failed:")
             print(xml_schema.error_log)
             sys.exit(1)
 
+        # load stylesheet, apply XSLT transformation
         xsl_doc = etree.parse(xsl_file)
         transform = etree.XSLT(xsl_doc)
-        result_tree = transform(xml_doc)
-        print("[-] Transformation XSLT appliquée avec succès.")
 
-        with open(output_file, 'wb') as f:
-            f.write(result_tree)
-        print(f"[SUCCÈS] Résultat sauvegardé dans : {output_file}")
+        # apply the transformation
+        result_tree = transform(xml_doc)
+        print("[-] XSLT transformation successfully applied in memory.")
+
+        # print the result to console
+        print(str(result_tree))
 
     except Exception as e:
-        print(f"[ERREUR] Un problème est survenu : {e}")
+        print(f"[ERROR] An issue occurred: {e}")
 
 if __name__ == "__main__":
     process_xml_pipeline()
