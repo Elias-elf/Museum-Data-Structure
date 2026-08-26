@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<UseCase number="2"
+         type="XML">
+	<TopTen_ExposedRestoredArtifacts keep="10"
+	                                 out_of_max="206">
+		<Artifact rank="1"
+		          id="A0162"
+		          title="Coin Depicting a Ship's Prow">
+			<MaxExposure unit="Visitors/Day">1090</MaxExposure>
+			<ExhibitionCount>2</ExhibitionCount>
+			<TotalRestorationLoan currency="EUR">181750</TotalRestorationLoan>
+		</Artifact>
+		<Artifact rank="2"
+		          id="A0159"
+		          title="Tetradrachm (Coin) Depicting the Hero Herakles with the Features of Alexander the Great">
+			<MaxExposure unit="Visitors/Day">1090</MaxExposure>
+			<ExhibitionCount>2</ExhibitionCount>
+			<TotalRestorationLoan currency="EUR">132250</TotalRestorationLoan>
+		</Artifact>
+		<Artifact rank="3"
+		          id="A0063"
+		          title="Amulet of Sekhmet">
+			<MaxExposure unit="Visitors/Day">1070</MaxExposure>
+			<ExhibitionCount>2</ExhibitionCount>
+			<TotalRestorationLoan currency="EUR">283500</TotalRestorationLoan>
+		</Artifact>
+		<Artifact rank="4"
+		          id="A0064"
+		          title="Canopic Jar of Amenhotep">
+			<MaxExposure unit="Visitors/Day">1070</MaxExposure>
+			<ExhibitionCount>2</ExhibitionCount>
+			<TotalRestorationLoan currency="EUR">283500</TotalRestorationLoan>
+		</Artifact>
+		<Artifact rank="5"
+		          id="A0062"
+		          title="Shabti of Horu">
+			<MaxExposure unit="Visitors/Day">1070</MaxExposure>
+			<ExhibitionCount>2</ExhibitionCount>
+			<TotalRestorationLoan currency="EUR">245000</TotalRestorationLoan>
+		</Artifact>
+		<Artifact rank="6"
+		          id="A0481"
+		          title="Square Tile">
+			<MaxExposure unit="Visitors/Day">930</MaxExposure>
+			<ExhibitionCount>2</ExhibitionCount>
+			<TotalRestorationLoan currency="EUR">286250</TotalRestorationLoan>
+		</Artifact>
+		<Artifact rank="7"
+		          id="A0483"
+		          title="Ruler Entertained by Dancers in a Paradise Garden">
+			<MaxExposure unit="Visitors/Day">930</MaxExposure>
+			<ExhibitionCount>2</ExhibitionCount>
+			<TotalRestorationLoan currency="EUR">278000</TotalRestorationLoan>
+		</Artifact>
+		<Artifact rank="8"
+		          id="A0283"
+		          title="Saddle">
+			<MaxExposure unit="Visitors/Day">890</MaxExposure>
+			<ExhibitionCount>2</ExhibitionCount>
+			<TotalRestorationLoan currency="EUR">115750</TotalRestorationLoan>
+		</Artifact>
+		<Artifact rank="9"
+		          id="A0185"
+		          title="Goblet">
+			<MaxExposure unit="Visitors/Day">870</MaxExposure>
+			<ExhibitionCount>2</ExhibitionCount>
+			<TotalRestorationLoan currency="EUR">291750</TotalRestorationLoan>
+		</Artifact>
+		<Artifact rank="10"
+		          id="A0186"
+		          title="Bottle">
+			<MaxExposure unit="Visitors/Day">870</MaxExposure>
+			<ExhibitionCount>2</ExhibitionCount>
+			<TotalRestorationLoan currency="EUR">291750</TotalRestorationLoan>
+		</Artifact>
+	</TopTen_ExposedRestoredArtifacts>
+</UseCase>

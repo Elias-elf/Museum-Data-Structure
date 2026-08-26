@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<UseCase number="1"
+         type="XML">
+	<TopFiveCollections>
+		<Collection rank="1"
+		            id="COL024"
+		            title="Archaeological Objects">
+			<Description>Objects with ancient or archaeological contexts represented in the source catalog.</Description>
+			<Artifact_ToBe_Restored>247</Artifact_ToBe_Restored>
+			<ProjectCount>85</ProjectCount>
+			<TotalArtifactCount>603</TotalArtifactCount>
+		</Collection>
+		<Collection rank="2"
+		            id="COL025"
+		            title="Ancient Worlds">
+			<Description>Objects dated through the late antique era across multiple cultural heritages.</Description>
+			<Artifact_ToBe_Restored>157</Artifact_ToBe_Restored>
+			<ProjectCount>56</ProjectCount>
+			<TotalArtifactCount>283</TotalArtifactCount>
+		</Collection>
+		<Collection rank="3"
+		            id="COL010"
+		            title="Sculpture and Relief">
+			<Description>Freestanding sculpture, reliefs, plaques, and related three-dimensional works.</Description>
+			<Artifact_ToBe_Restored>96</Artifact_ToBe_Restored>
+			<ProjectCount>45</ProjectCount>
+			<TotalArtifactCount>292</TotalArtifactCount>
+		</Collection>
+		<Collection rank="4"
+		            id="COL007"
+		            title="Ceramics and Terracotta">
+			<Description>Objects made from ceramic, clay, terracotta, porcelain, earthenware, or stoneware.</Description>
+			<Artifact_ToBe_Restored>96</Artifact_ToBe_Restored>
+			<ProjectCount>37</ProjectCount>
+			<TotalArtifactCount>328</TotalArtifactCount>
+		</Collection>
+		<Collection rank="5"
+		            id="COL011"
+		            title="Vessels and Containers">
+			<Description>Vessels, jars, bowls, cups, bottles, boxes, and other containers.</Description>
+			<Artifact_ToBe_Restored>95</Artifact_ToBe_Restored>
+			<ProjectCount>44</ProjectCount>
+			<TotalArtifactCount>301</TotalArtifactCount>
+		</Collection>
+	</TopFiveCollections>
+</UseCase>
