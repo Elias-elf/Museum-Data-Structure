@@ -4,9 +4,8 @@
     xmlns:exsl="http://exslt.org/common"
     extension-element-prefixes="exsl">
   <xsl:output method="html" encoding="UTF-8" indent="yes"/>
-
-  <!-- Artifacts.xml must be in the same folder as this stylesheet. -->
-  <xsl:variable name="artifact-data" select="document('Artifacts.xml')/Artifacts"/>
+ 
+<xsl:variable name="artifact-data" select="/Museum/Artifacts"/>
 
   <xsl:template match="/">
     <html>
@@ -15,7 +14,7 @@
       </head>
       <body>
         <h1>Exhibitions displaying artifacts made of more than five different materials</h1>
-        <xsl:apply-templates select="Exhibitions/Exhibition"/>
+        <xsl:apply-templates select="Museum/Exhibitions/Exhibition"/>
       </body>
     </html>
   </xsl:template>
