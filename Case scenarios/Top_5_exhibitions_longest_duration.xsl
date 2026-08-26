@@ -28,7 +28,7 @@
               For sorting, each date is converted to a Julian Day Number (JDN):
                 duration = closing JDN - opening JDN
             -->
-            <xsl:apply-templates select="Exhibitions/Exhibition">
+            <xsl:apply-templates select="Museum/Exhibitions/Exhibition">
               <xsl:sort data-type="number" order="descending"
                 select="
                   (number(substring(Schedule/ClosingDate, 9, 2))
