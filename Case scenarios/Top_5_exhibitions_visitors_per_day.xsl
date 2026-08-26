@@ -23,7 +23,7 @@
             </tr>
           </thead>
           <tbody>
-            <xsl:apply-templates select="Exhibitions/Exhibition">
+            <xsl:apply-templates select="Museum/Exhibitions/Exhibition">
               <xsl:sort select="number(VisitorCount/Adult) + number(VisitorCount/UnderAge)" data-type="number" order="descending"/>
             </xsl:apply-templates>
           </tbody>
