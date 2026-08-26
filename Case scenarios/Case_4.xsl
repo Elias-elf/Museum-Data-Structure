@@ -14,7 +14,7 @@
       </head>
       <body>
         <h1>Exhibitions displaying artifacts made of more than five different materials</h1>
-        <xsl:apply-templates select="Museum/Exhibitions/Exhibition"/>
+        <xsl:apply-templates select="/Museum/Exhibitions/Exhibition"/>
       </body>
     </html>
   </xsl:template>
