@@ -24,6 +24,7 @@
           </thead>
           <tbody>
             <xsl:apply-templates select="/Museum/Exhibitions/Exhibition">
+            <!-- Sort the calculated total in descending numeric order -->
               <xsl:sort select="number(VisitorCount/Adult) + number(VisitorCount/UnderAge)" data-type="number" order="descending"/>
             </xsl:apply-templates>
           </tbody>
@@ -37,6 +38,7 @@
   </xsl:template>
 
   <xsl:template match="Exhibition">
+  <!--Display only the first five exhibitions -->
     <xsl:if test="position() &lt;= 5">
       <tr>
         <td><xsl:value-of select="position()"/></td>
@@ -48,6 +50,7 @@
         <td><xsl:value-of select="VisitorCount/UnderAge"/></td>
         <td>
           <strong>
+          <!--Both values are already expressed as visitors per day (numeric), so they can be calculted directly -->
             <xsl:value-of select="number(VisitorCount/Adult) + number(VisitorCount/UnderAge)"/>
           </strong>
         </td>
