@@ -24,6 +24,7 @@
   </xsl:template>
     
   <xsl:template match="Exhibition">
+<!-- Select artifact references belonging to each exhibition -->
     <xsl:variable name="artifact-refs"
         select="Artifacts/Artifact/@ref"/>
 <!--Select materials directly from the source XML and remove duplicates-->
