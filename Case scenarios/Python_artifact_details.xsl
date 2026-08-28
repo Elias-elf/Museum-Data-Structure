@@ -7,14 +7,6 @@
         <html>
         <head>
             <title>Artifact Details</title>
-            <style>
-                body { font-family: Arial, sans-serif; margin: 20px; }
-                h2 { color: #2c3e50; }
-                table { border-collapse: collapse; width: 100%; }
-                th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-                th { color: #34495e; }
-                tr:nth-child(even) { background-color: #f9f9f9; }
-            </style>
         </head>
         <body>
             <h2>Artifact Details, Materials, and Restoration Status</h2>
