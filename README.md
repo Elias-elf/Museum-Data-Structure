@@ -40,3 +40,36 @@ The list of the use cases that are studied in this project is detailed below:
 - [ ] Use case #8: 
 - [x] Use case #9: Extract artifact details, materials, and restoration status to JSON.
 - [x] Use case #10: List of all the Restoration projects over €200k.
+
+## Python Scripts
+
+Two Python scripts are provided to process the Museum XML data.
+
+### Dependencies
+
+The `Python_pipeline.py` script requires the `lxml` library. The `Optional_python.py` script uses Python's built-in `xml.dom.minidom` module, so no additional dependency is required.
+Install the required dependency with:
+
+```bash
+pip install lxml
+```
+
+### Python Pipeline
+
+The `Python_pipeline.py` script validates the `Artifacts.xml` file against its XSD schema and then applies the corresponding XSLT transformation.
+
+To run it from the project root directory:
+
+```bash
+python Python_pipeline.py
+```
+
+### Optional Python Script
+
+The `Optional_python.py` script uses Python's DOM API to parse `Artifacts.xml` and generate an HTML file containing the artifact details.
+
+To run it:
+
+```bash
+python Optional_python.py
+```
