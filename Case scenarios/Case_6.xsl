@@ -2,10 +2,12 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="html" encoding="UTF-8" indent="yes"/>
 	<xsl:template match="/">
+		<!-- This use case supports museum search by historical period, allowing staff to filter -->
+		<!-- the catalog according to specific period-based needs (e.g. exhibits, research, loans). -->
+		<!-- In this scenario, we're listing all artifacts from the 3rd century AD. -->
 		<html>
 			<head>
 				<title>Artifacts - 3rd century AD</title>
-				<meta charset="UTF-8"/>
 			</head>
 			<body>
 				<h1>Artifacts from 3rd century AD</h1>
@@ -15,6 +17,7 @@
 						<th>Description</th>
 						<th>Provenance</th>
 					</tr>
+					<!-- Filter by HistoricalPeriod, using iteration -->
 					<xsl:for-each select="//Artifact[HistoricalPeriod='3rd century AD']">
 						<tr>
 							<td>
