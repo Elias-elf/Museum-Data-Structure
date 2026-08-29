@@ -22,25 +22,18 @@
 					</xs:sequence>
 				</xs:complexType>
 			</xs:element>
-			<xs:choice>
-				<xs:element name="Artifacts">
-					<xs:complexType>
-						<xs:sequence>
-							<xs:element name="Artifact" minOccurs="10" maxOccurs="unbounded">
-								<!--Have at least 10 artifacts in an Exhibition or a collection-->
-								<xs:complexType>
-									<xs:attribute name="ref" type="xs:IDREF" use="required"/>
-								</xs:complexType>
-							</xs:element>
-						</xs:sequence>
-					</xs:complexType>
-				</xs:element>
-				<xs:element name="Collection" minOccurs="1" maxOccurs="unbounded">
-					<xs:complexType>
-						<xs:attribute name="ref" type="xs:IDREF" use="required"/>
-					</xs:complexType>
-				</xs:element>
-			</xs:choice>
+			<xs:element name="Artifacts">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Artifact" minOccurs="10" maxOccurs="unbounded">
+							<!--Have at least 10 artifacts in an Exhibition or a collection-->
+							<xs:complexType>
+								<xs:attribute name="ref" type="xs:IDREF" use="required"/>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
 			<xs:element name='VisitorCount'>
 				<xs:complexType>
 					<xs:sequence>
