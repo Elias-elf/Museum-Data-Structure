@@ -6,6 +6,7 @@
     <xsl:variable name="doubleQuote">"</xsl:variable>
     <xsl:variable name="singleQuote">'</xsl:variable>
     
+    <!-- This use case extracts artifact details, materials, and restoration status to JSON. -->
     <xsl:template match="/">
         {
           "Artifacts": [
