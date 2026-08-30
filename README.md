@@ -37,7 +37,7 @@ The list of the use cases that are studied in this project is detailed below:
 - [x] Use case #5: Top 5 exhibitions have the longest duration.
 - [x] Use case #6: Find the artifacts from from "3rd century AD".
 - [x] Use case #7: List all responsibles with their restoration domains and expertise, sorted alphabetically by name.
-- [ ] Use case #8: 
+- [x] Use case #8: List separating artifacts currently under restoration from those that aren’t.
 - [x] Use case #9: Extract artifact details, materials, and restoration status to JSON.
 - [x] Use case #10: List of all the Restoration projects over €200k.
 
